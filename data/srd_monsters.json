@@ -1,0 +1,555 @@
+{
+    "Aberrations": {
+        "Aboleth": {
+            "challenge_rating": 7,
+            "size": "Large",
+            "type": "Aberration",
+            "hit_dice": "8d8+24",
+            "initiative": 1,
+            "speed": "10 ft., swim 60 ft.",
+            "armor_class": 16,
+            "touch_ac": 10,
+            "flat_footed_ac": 15,
+            "base_attack": 6,
+            "grapple": 14,
+            "attacks": [
+                {
+                    "name": "Tentacle",
+                    "attack_bonus": 10,
+                    "damage": "1d6+4",
+                    "damage_type": "bludgeoning"
+                }
+            ],
+            "full_attack": "4 tentacles +10 melee (1d6+4) and bite +5 melee (1d4+2)",
+            "space": "10 ft.",
+            "reach": "10 ft.",
+            "special_qualities": [
+                "Amphibious",
+                "Mucus cloud",
+                "Slime",
+                "Telepathy 100 ft."
+            ],
+            "saves": {
+                "Fort": 6,
+                "Ref": 3,
+                "Will": 9
+            },
+            "abilities": {
+                "STR": 18,
+                "DEX": 12,
+                "CON": 16,
+                "INT": 15,
+                "WIS": 15,
+                "CHA": 18
+            },
+            "skills": {
+                "Concentration": 11,
+                "Knowledge (any one)": 11,
+                "Listen": 13,
+                "Spot": 13,
+                "Swim": 12
+            },
+            "feats": [
+                "Combat Casting",
+                "Iron Will",
+                "Lightning Reflexes"
+            ],
+            "abilities_list": [
+                {
+                    "name": "Enslave",
+                    "description": "3/day, DC 17, range 30 ft., duration 1 day"
+                },
+                {
+                    "name": "Psionics",
+                    "description": "At will\u00e2\u20ac\u201dhypnotic pattern (DC 14), illusory wall (DC 16), mirage arcana (DC 17), persistent image (DC 17), programmed image (DC 18), project image (DC 19), veil (DC 19)"
+                }
+            ],
+            "environment": "Underground",
+            "organization": "Solitary, brood (2-4), or slaver brood (1d3+1 plus 7-12 skum)",
+            "treasure": "Double standard",
+            "alignment": "Usually lawful evil",
+            "advancement": "9-16 HD (Large); 17-24 HD (Huge)",
+            "spell_like_abilities": {
+                "Hypnotic Pattern": "At will",
+                "Project Image": "At will"
+            }
+        },
+        "Beholder": {
+            "challenge_rating": 13,
+            "size": "Large",
+            "type": "Aberration",
+            "hit_dice": "15d8+45",
+            "initiative": 6,
+            "speed": "5 ft., fly 20 ft.",
+            "armor_class": 26,
+            "touch_ac": 12,
+            "flat_footed_ac": 24,
+            "base_attack": 11,
+            "grapple": 17,
+            "attacks": [
+                {
+                    "name": "Eye Rays",
+                    "attack_bonus": 12,
+                    "damage": "varies",
+                    "damage_type": "varies",
+                    "special": "10 different ray effects"
+                }
+            ],
+            "full_attack": "Eye rays +12 ranged touch and bite +7 melee (2d4)",
+            "space": "10 ft.",
+            "reach": "5 ft.",
+            "special_qualities": [
+                "All-around vision",
+                "Darkvision 60 ft.",
+                "Flight"
+            ],
+            "saves": {
+                "Fort": 9,
+                "Ref": 11,
+                "Will": 12
+            },
+            "abilities": {
+                "STR": 10,
+                "DEX": 14,
+                "CON": 16,
+                "INT": 17,
+                "WIS": 15,
+                "CHA": 15
+            },
+            "skills": {
+                "Hide": 16,
+                "Listen": 20,
+                "Search": 20,
+                "Spot": 20,
+                "Survival": 15
+            },
+            "feats": [
+                "Alertness",
+                "Improved Initiative",
+                "Iron Will"
+            ],
+            "abilities_list": [
+                {
+                    "name": "Antimagic Cone",
+                    "description": "150 ft. cone, suppresses magic"
+                },
+                {
+                    "name": "Eye Rays",
+                    "description": "Charm Monster (DC 17), Disintegrate (DC 19), Fear (DC 17), etc."
+                }
+            ],
+            "environment": "Underground",
+            "organization": "Solitary or colony (2-4)",
+            "treasure": "Double standard",
+            "alignment": "Usually lawful evil",
+            "advancement": "16-30 HD (Huge)",
+            "spell_like_abilities": {
+                "Charm Monster": "At will (eye ray)",
+                "Disintegrate": "At will (eye ray)"
+            }
+        }
+    },
+    "Animals": {
+        "Dire Bear": {
+            "challenge_rating": 7,
+            "size": "Large",
+            "type": "Animal",
+            "hit_dice": "12d8+51",
+            "initiative": 1,
+            "speed": "40 ft.",
+            "armor_class": 17,
+            "touch_ac": 8,
+            "flat_footed_ac": 16,
+            "base_attack": 9,
+            "grapple": 21,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "attack_bonus": 16,
+                    "damage": "2d4+8",
+                    "damage_type": "slashing"
+                }
+            ],
+            "full_attack": "2 claws +16 melee (2d4+8) and bite +11 melee (2d8+4)",
+            "space": "10 ft.",
+            "reach": "5 ft.",
+            "special_qualities": [
+                "Low-light vision",
+                "Scent"
+            ],
+            "saves": {
+                "Fort": 13,
+                "Ref": 9,
+                "Will": 7
+            },
+            "abilities": {
+                "STR": 27,
+                "DEX": 13,
+                "CON": 19,
+                "INT": 2,
+                "WIS": 12,
+                "CHA": 10
+            },
+            "skills": {
+                "Listen": 7,
+                "Spot": 7,
+                "Swim": 12
+            },
+            "feats": [
+                "Endurance",
+                "Run",
+                "Toughness"
+            ],
+            "abilities_list": [
+                {
+                    "name": "Improved Grab",
+                    "description": "On claw hit, can start grapple as free action"
+                }
+            ],
+            "environment": "Cold forests",
+            "organization": "Solitary or pair",
+            "treasure": "None",
+            "alignment": "Always neutral",
+            "advancement": "13-24 HD (Large); 25-36 HD (Huge)"
+        }
+    },
+    "Dragons": {
+        "Red Dragon (Young)": {
+            "challenge_rating": 10,
+            "size": "Large",
+            "type": "Dragon",
+            "subtype": "Fire",
+            "hit_dice": "15d12+60",
+            "initiative": 0,
+            "speed": "40 ft., fly 150 ft. (poor)",
+            "armor_class": 25,
+            "touch_ac": 10,
+            "flat_footed_ac": 25,
+            "base_attack": 15,
+            "grapple": 24,
+            "attacks": [
+                {
+                    "name": "Bite",
+                    "attack_bonus": 19,
+                    "damage": "2d6+9",
+                    "damage_type": "piercing"
+                }
+            ],
+            "full_attack": "Bite +19 melee (2d6+9) and 2 claws +14 melee (1d8+4) and 2 wings +14 melee (1d6+4) and tail slap +14 melee (1d8+13)",
+            "space": "10 ft.",
+            "reach": "5 ft. (10 ft. with bite)",
+            "special_qualities": [
+                "Darkvision 120 ft.",
+                "Low-light vision",
+                "Blindsense 60 ft.",
+                "Immunity to fire",
+                "Vulnerability to cold"
+            ],
+            "saves": {
+                "Fort": 13,
+                "Ref": 9,
+                "Will": 11
+            },
+            "abilities": {
+                "STR": 29,
+                "DEX": 10,
+                "CON": 19,
+                "INT": 12,
+                "WIS": 13,
+                "CHA": 12
+            },
+            "skills": {
+                "Bluff": 19,
+                "Concentration": 21,
+                "Diplomacy": 3,
+                "Escape Artist": 18,
+                "Intimidate": 21,
+                "Knowledge (arcana)": 19,
+                "Listen": 21,
+                "Search": 19,
+                "Sense Motive": 19,
+                "Spot": 21,
+                "Use Magic Device": 19
+            },
+            "feats": [
+                "Alertness",
+                "Flyby Attack",
+                "Hover",
+                "Improved Initiative",
+                "Power Attack",
+                "Weapon Focus (bite)"
+            ],
+            "abilities_list": [
+                {
+                    "name": "Breath Weapon",
+                    "description": "40-ft. cone, 12d10 fire, Reflex DC 21 half"
+                },
+                {
+                    "name": "Frightful Presence",
+                    "description": "180-ft. radius, Will DC 19 negates"
+                }
+            ],
+            "environment": "Warm mountains",
+            "organization": "Solitary or clutch (2-5)",
+            "treasure": "Double standard",
+            "alignment": "Chaotic evil",
+            "advancement": "16-20 HD (Large), 21-30 HD (Huge)",
+            "spell_like_abilities": {
+                "Locate Object": "3/day"
+            },
+            "spells": [
+                "As 5th-level sorcerer"
+            ]
+        }
+    },
+    "Magical Beasts": {
+        "Displacer Beast": {
+            "challenge_rating": 4,
+            "size": "Large",
+            "type": "Magical Beast",
+            "hit_dice": "6d10+18",
+            "initiative": 2,
+            "speed": "40 ft.",
+            "armor_class": 16,
+            "touch_ac": 12,
+            "flat_footed_ac": 14,
+            "base_attack": 6,
+            "grapple": 14,
+            "attacks": [
+                {
+                    "name": "Tentacle",
+                    "attack_bonus": 9,
+                    "damage": "1d6+4",
+                    "damage_type": "bludgeoning"
+                }
+            ],
+            "full_attack": "2 tentacles +9 melee (1d6+4) and bite +4 melee (1d8+2)",
+            "space": "10 ft.",
+            "reach": "5 ft. (10 ft. with tentacles)",
+            "special_qualities": [
+                "Darkvision 60 ft.",
+                "Low-light vision",
+                "Displacement",
+                "Resistance to ranged attacks"
+            ],
+            "saves": {
+                "Fort": 8,
+                "Ref": 7,
+                "Will": 3
+            },
+            "abilities": {
+                "STR": 18,
+                "DEX": 15,
+                "CON": 17,
+                "INT": 5,
+                "WIS": 12,
+                "CHA": 8
+            },
+            "skills": {
+                "Hide": 8,
+                "Listen": 5,
+                "Move Silently": 8,
+                "Spot": 5
+            },
+            "feats": [
+                "Alertness",
+                "Combat Reflexes",
+                "Weapon Focus (tentacle)"
+            ],
+            "abilities_list": [
+                {
+                    "name": "Displacement",
+                    "description": "50% miss chance from visual attacks"
+                }
+            ],
+            "environment": "Temperate forests",
+            "organization": "Solitary, pair, or pride (6-10)",
+            "treasure": "Standard",
+            "alignment": "Usually lawful evil",
+            "advancement": "7-12 HD (Large); 13-18 HD (Huge)"
+        }
+    },
+    "Undead": {
+        "Vampire": {
+            "challenge_rating": 8,
+            "size": "Medium",
+            "type": "Undead",
+            "hit_dice": "12d12",
+            "initiative": 6,
+            "speed": "30 ft.",
+            "armor_class": 23,
+            "touch_ac": 16,
+            "flat_footed_ac": 20,
+            "base_attack": 6,
+            "grapple": 11,
+            "attacks": [
+                {
+                    "name": "Slam",
+                    "attack_bonus": 11,
+                    "damage": "1d6+7",
+                    "damage_type": "bludgeoning"
+                }
+            ],
+            "full_attack": "Slam +11 melee (1d6+7) or weapon +11/+6 melee",
+            "space": "5 ft.",
+            "reach": "5 ft.",
+            "special_qualities": [
+                "Undead traits",
+                "Damage reduction 10/silver and magic",
+                "Fast healing 5",
+                "Resistances",
+                "Spider climb",
+                "Gaseous form",
+                "Alternate form"
+            ],
+            "saves": {
+                "Fort": 4,
+                "Ref": 7,
+                "Will": 9
+            },
+            "abilities": {
+                "STR": 20,
+                "DEX": 16,
+                "CON": null,
+                "INT": 14,
+                "WIS": 14,
+                "CHA": 16
+            },
+            "skills": {
+                "Bluff": 15,
+                "Hide": 15,
+                "Listen": 17,
+                "Move Silently": 15,
+                "Search": 14,
+                "Sense Motive": 14,
+                "Spot": 17
+            },
+            "feats": [
+                "Alertness",
+                "Combat Reflexes",
+                "Dodge",
+                "Improved Initiative",
+                "Lightning Reflexes"
+            ],
+            "abilities_list": [
+                {
+                    "name": "Dominate",
+                    "description": "Gaze attack, Will DC 17 negates"
+                },
+                {
+                    "name": "Energy Drain",
+                    "description": "2 negative levels per hit, Fort DC 17 removes"
+                },
+                {
+                    "name": "Create Spawn",
+                    "description": "Slain humanoids rise as vampire spawn"
+                }
+            ],
+            "spell_like_abilities": {
+                "Children of the Night": "1/day",
+                "Gaseous Form": "At will"
+            },
+            "environment": "Any",
+            "organization": "Solitary, pair, or gang (3-6)",
+            "treasure": "Double standard",
+            "alignment": "Any evil",
+            "advancement": "13-24 HD (Medium); 25-36 HD (Large)"
+        }
+    },
+    "Outsiders": {
+        "Pit Fiend": {
+            "challenge_rating": 20,
+            "size": "Large",
+            "type": "Outsider",
+            "subtype": "Evil, Extraplanar, Lawful",
+            "hit_dice": "18d8+126",
+            "initiative": 7,
+            "speed": "30 ft., fly 60 ft. (good)",
+            "armor_class": 40,
+            "touch_ac": 13,
+            "flat_footed_ac": 37,
+            "base_attack": 18,
+            "grapple": 33,
+            "attacks": [
+                {
+                    "name": "Bite",
+                    "attack_bonus": 28,
+                    "damage": "4d6+11",
+                    "damage_type": "piercing"
+                }
+            ],
+            "full_attack": "Bite +28 melee (4d6+11) and 2 claws +26 melee (2d8+5) and 2 wings +26 melee (2d6+5) and tail slap +26 melee (2d8+16)",
+            "space": "10 ft.",
+            "reach": "10 ft.",
+            "special_qualities": [
+                "Damage reduction 15/good and silver",
+                "Darkvision 60 ft.",
+                "Immunities",
+                "Resistances",
+                "Spell resistance 32",
+                "Telepathy 100 ft."
+            ],
+            "saves": {
+                "Fort": 20,
+                "Ref": 14,
+                "Will": 17
+            },
+            "abilities": {
+                "STR": 33,
+                "DEX": 16,
+                "CON": 25,
+                "INT": 22,
+                "WIS": 20,
+                "CHA": 24
+            },
+            "skills": {
+                "Bluff": 30,
+                "Concentration": 28,
+                "Diplomacy": 34,
+                "Disguise": 30,
+                "Intimidate": 32,
+                "Knowledge (any three)": 28,
+                "Listen": 28,
+                "Search": 28,
+                "Sense Motive": 28,
+                "Spellcraft": 28,
+                "Spot": 28
+            },
+            "feats": [
+                "Cleave",
+                "Great Cleave",
+                "Improved Initiative",
+                "Improved Sunder",
+                "Multiattack",
+                "Power Attack"
+            ],
+            "abilities_list": [
+                {
+                    "name": "Fear Aura",
+                    "description": "20-ft. radius, Will DC 27 negates"
+                },
+                {
+                    "name": "Summon Devil",
+                    "description": "1/day summon 2d10 lemures or 1d4 bearded devils"
+                },
+                {
+                    "name": "See in Darkness",
+                    "description": "Can see perfectly in darkness of any kind"
+                }
+            ],
+            "spell_like_abilities": {
+                "Greater Teleport": "At will",
+                "Fireball": "1/day",
+                "Meteor Swarm": "1/day"
+            },
+            "spells": [
+                "As 14th-level sorcerer"
+            ],
+            "environment": "Avernus (Nine Hells)",
+            "organization": "Solitary or troupe (1 plus 2-5 bearded devils)",
+            "treasure": "Double standard",
+            "alignment": "Lawful evil",
+            "advancement": "19-24 HD (Large); 25-54 HD (Huge)"
+        }
+    }
+}

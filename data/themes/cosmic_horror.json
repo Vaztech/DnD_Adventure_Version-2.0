@@ -1,0 +1,50 @@
+{
+  "theme": "Cosmic Horror",
+  "intro": "A world shrouded in eldritch shadows, where sanity frays and gods whisper from the void.",
+  "civilizations": [
+    {
+      "name": "Ygtharion",
+      "race": "Human",
+      "description": "A cult-city worshipping the Crawling Chaos, built on a blackened coast."
+    }
+  ],
+  "rooms": [
+    {
+      "type": "capital",
+      "name": "{civ_name} Void-Shrine",
+      "description": "The heart of {civ_name}, a {biome} temple pulsing with unnatural energy.",
+      "biome": ["swamp", "coast"],
+      "symbols": {"wall": "☿", "floor": "~", "altar": "⌖"},
+      "npcs": ["{civ_name}_priest", "{civ_name}_acolyte"]
+    },
+    {
+      "type": "dungeon",
+      "name": "Abyssal Rift",
+      "description": "A tear in reality where the void whispers madness.",
+      "biome": ["swamp"],
+      "symbols": {"wall": "◊", "floor": "≈", "portal": "Φ"},
+      "npcs": ["mad_hermit"],
+      "monsters": ["void_spawn"]
+    }
+  ],
+  "npcs": [
+    {
+      "name": "{civ_name}_priest",
+      "dialogue": ["The Crawling Chaos demands your soul!", "Gaze into the rift if you dare."]
+    },
+    {
+      "name": "{civ_name}_acolyte",
+      "dialogue": ["The stars align; our god awakens."]
+    },
+    {
+      "name": "mad_hermit",
+      "dialogue": ["I saw it... the void... it sees me!"]
+    }
+  ],
+  "events": [
+    {
+      "name": "The Starfall",
+      "description": "A meteor shower brought madness, awakening ancient horrors."
+    }
+  ]
+}

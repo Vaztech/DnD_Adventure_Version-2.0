@@ -1,0 +1,428 @@
+{
+    "Barbarian": {
+        "description": "A fierce warrior fueled by rage, excelling in melee combat with high durability and strength.",
+        "hit_die": 12,
+        "bab_progression": "fast",
+        "spellcasting": false,
+        "class_skills": [
+            "Climb",
+            "Craft",
+            "Handle Animal",
+            "Intimidate",
+            "Jump",
+            "Listen",
+            "Ride",
+            "Survival",
+            "Swim"
+        ],
+        "features": [
+            {"name": "Rage", "level": 1, "description": "Gain +4 Strength, +4 Constitution, +2 Will saves, -2 AC for limited rounds"},
+            {"name": "Fast Movement", "level": 1, "description": "+10 ft. to base speed"}
+        ],
+        "subclasses": {}
+    },
+    "Bard": {
+        "description": "A charismatic performer who weaves magic through music and excels in social interactions.",
+        "hit_die": 6,
+        "bab_progression": "medium",
+        "spellcasting": true,
+        "spellcasting_stat": "Charisma",
+        "class_skills": [
+            "Appraise",
+            "Balance",
+            "Bluff",
+            "Climb",
+            "Concentration",
+            "Craft",
+            "Decipher Script",
+            "Diplomacy",
+            "Disguise",
+            "Escape Artist",
+            "Gather Information",
+            "Hide",
+            "Jump",
+            "Knowledge (all)",
+            "Listen",
+            "Move Silently",
+            "Perform",
+            "Profession",
+            "Sense Motive",
+            "Sleight of Hand",
+            "Speak Language",
+            "Spellcraft",
+            "Swim",
+            "Tumble",
+            "Use Magic Device"
+        ],
+        "features": [
+            {"name": "Bardic Music", "level": 1, "description": "Inspire courage, fascinate, and other effects"},
+            {"name": "Bardic Knowledge", "level": 1, "description": "Bonus to Knowledge checks"}
+        ],
+        "subclasses": {}
+    },
+    "Cleric": {
+        "description": "A divine spellcaster who channels the power of their deity to heal and protect allies.",
+        "hit_die": 8,
+        "bab_progression": "medium",
+        "spellcasting": true,
+        "spellcasting_stat": "Wisdom",
+        "class_skills": [
+            "Concentration",
+            "Craft",
+            "Diplomacy",
+            "Heal",
+            "Knowledge (arcana)",
+            "Knowledge (history)",
+            "Knowledge (religion)",
+            "Knowledge (the planes)",
+            "Profession",
+            "Spellcraft"
+        ],
+        "features": [
+            {"name": "Turn Undead", "level": 1, "description": "Channel divine energy to turn undead"},
+            {"name": "Domains", "level": 1, "description": "Choose two domains for bonus spells and powers"}
+        ],
+        "subclasses": {}
+    },
+    "Druid": {
+        "description": "A nature-bound spellcaster who draws power from the wilderness and bonds with animals.",
+        "hit_die": 8,
+        "bab_progression": "medium",
+        "spellcasting": true,
+        "spellcasting_stat": "Wisdom",
+        "class_skills": [
+            "Concentration",
+            "Craft",
+            "Diplomacy",
+            "Handle Animal",
+            "Heal",
+            "Knowledge (nature)",
+            "Listen",
+            "Profession",
+            "Ride",
+            "Spellcraft",
+            "Spot",
+            "Survival",
+            "Swim"
+        ],
+        "features": [
+            {"name": "Animal Companion", "level": 1, "description": "Gain a loyal animal companion"},
+            {"name": "Nature Sense", "level": 1, "description": "Bonus to Knowledge (nature) and Survival"}
+        ],
+        "subclasses": {}
+    },
+    "Fighter": {
+        "description": "A versatile combatant skilled in a wide array of weapons and tactics.",
+        "hit_die": 10,
+        "bab_progression": "fast",
+        "spellcasting": false,
+        "class_skills": [
+            "Climb",
+            "Craft",
+            "Handle Animal",
+            "Intimidate",
+            "Jump",
+            "Ride",
+            "Swim"
+        ],
+        "features": [
+            {"name": "Bonus Feat", "level": 1, "description": "Gain a bonus feat at 1st level and every even level"}
+        ],
+        "subclasses": {}
+    },
+    "Monk": {
+        "description": "A martial artist who masters unarmed combat and spiritual discipline.",
+        "hit_die": 8,
+        "bab_progression": "medium",
+        "spellcasting": false,
+        "class_skills": [
+            "Balance",
+            "Climb",
+            "Concentration",
+            "Craft",
+            "Diplomacy",
+            "Escape Artist",
+            "Hide",
+            "Jump",
+            "Knowledge (arcana)",
+            "Knowledge (religion)",
+            "Listen",
+            "Move Silently",
+            "Perform",
+            "Profession",
+            "Sense Motive",
+            "Spot",
+            "Swim",
+            "Tumble"
+        ],
+        "features": [
+            {"name": "Flurry of Blows", "level": 1, "description": "Extra attack with unarmed strikes"},
+            {"name": "Unarmed Strike", "level": 1, "description": "Improved unarmed damage"}
+        ],
+        "subclasses": {}
+    },
+    "Paladin": {
+        "description": "A holy warrior dedicated to righteousness, wielding divine magic and smiting evil.",
+        "hit_die": 10,
+        "bab_progression": "fast",
+        "spellcasting": true,
+        "spellcasting_stat": "Wisdom",
+        "class_skills": [
+            "Concentration",
+            "Craft",
+            "Diplomacy",
+            "Handle Animal",
+            "Heal",
+            "Knowledge (nobility)",
+            "Knowledge (religion)",
+            "Profession",
+            "Ride",
+            "Sense Motive"
+        ],
+        "features": [
+            {"name": "Smite Evil", "level": 1, "description": "Bonus damage against evil creatures"},
+            {"name": "Divine Grace", "level": 2, "description": "Add Charisma to saves"}
+        ],
+        "subclasses": {}
+    },
+    "Ranger": {
+        "description": "A skilled tracker and wilderness expert, adept at hunting specific foes.",
+        "hit_die": 8,
+        "bab_progression": "fast",
+        "spellcasting": true,
+        "spellcasting_stat": "Wisdom",
+        "class_skills": [
+            "Climb",
+            "Concentration",
+            "Craft",
+            "Handle Animal",
+            "Heal",
+            "Hide",
+            "Jump",
+            "Knowledge (dungeoneering)",
+            "Knowledge (geography)",
+            "Knowledge (nature)",
+            "Listen",
+            "Move Silently",
+            "Profession",
+            "Ride",
+            "Search",
+            "Spot",
+            "Survival",
+            "Swim",
+            "Use Rope"
+        ],
+        "features": [
+            {"name": "Favored Enemy", "level": 1, "description": "Bonus against specific creature types"},
+            {"name": "Track", "level": 1, "description": "Enhanced tracking ability"}
+        ],
+        "subclasses": {}
+    },
+    "Rogue": {
+        "description": "A cunning operative skilled in stealth, traps, and precise strikes.",
+        "hit_die": 6,
+        "bab_progression": "medium",
+        "spellcasting": false,
+        "class_skills": [
+            "Appraise",
+            "Balance",
+            "Bluff",
+            "Climb",
+            "Craft",
+            "Decipher Script",
+            "Diplomacy",
+            "Disable Device",
+            "Disguise",
+            "Escape Artist",
+            "Forgery",
+            "Gather Information",
+            "Hide",
+            "Intimidate",
+            "Jump",
+            "Knowledge (local)",
+            "Listen",
+            "Move Silently",
+            "Open Lock",
+            "Perform",
+            "Profession",
+            "Search",
+            "Sense Motive",
+            "Sleight of Hand",
+            "Spot",
+            "Swim",
+            "Tumble",
+            "Use Magic Device",
+            "Use Rope"
+        ],
+        "features": [
+            {"name": "Sneak Attack", "level": 1, "description": "+1d6 damage against flanked or flat-footed enemies"},
+            {"name": "Trapfinding", "level": 1, "description": "Find and disarm traps"}
+        ],
+        "subclasses": {
+            "Assassin": {
+                "description": "A stealthy killer who uses magic and precision to eliminate targets.",
+                "hit_die": 6,
+                "bab_progression": "medium",
+                "spellcasting": true,
+                "spellcasting_stat": "Intelligence",
+                "class_skills": [
+                    "Balance",
+                    "Bluff",
+                    "Climb",
+                    "Craft",
+                    "Decipher Script",
+                    "Disguise",
+                    "Escape Artist",
+                    "Hide",
+                    "Jump",
+                    "Listen",
+                    "Move Silently",
+                    "Open Lock",
+                    "Search",
+                    "Sense Motive",
+                    "Sleight of Hand",
+                    "Spot",
+                    "Tumble",
+                    "Use Rope"
+                ],
+                "features": [
+                    {"name": "Sneak Attack", "level": 1, "description": "+1d6 damage against flanked or flat-footed enemies"},
+                    {"name": "Death Attack", "level": 1, "description": "Study target to attempt killing blow"}
+                ],
+                "prerequisites": {
+                    "level": 5,
+                    "stats": {"Dexterity": 12, "Intelligence": 12}
+                }
+            }
+        }
+    },
+    "Sorcerer": {
+        "description": "An innate arcane caster who wields powerful magic through charisma and bloodline.",
+        "hit_die": 4,
+        "bab_progression": "slow",
+        "spellcasting": true,
+        "spellcasting_stat": "Charisma",
+        "class_skills": [
+            "Bluff",
+            "Concentration",
+            "Craft",
+            "Knowledge (arcana)",
+            "Profession",
+            "Spellcraft"
+        ],
+        "features": [
+            {"name": "Familiar", "level": 1, "description": "Gain a magical familiar"}
+        ],
+        "subclasses": {}
+    },
+    "Wizard": {
+        "description": "A scholarly arcane caster who masters magic through study and spellbooks.",
+        "hit_die": 4,
+        "bab_progression": "slow",
+        "spellcasting": true,
+        "spellcasting_stat": "Intelligence",
+        "class_skills": [
+            "Concentration",
+            "Craft",
+            "Decipher Script",
+            "Knowledge (all)",
+            "Profession",
+            "Spellcraft"
+        ],
+        "features": [
+            {"name": "Spellbook", "level": 1, "description": "Prepare spells from a spellbook"},
+            {"name": "Familiar", "level": 1, "description": "Gain a magical familiar"}
+        ],
+        "subclasses": {
+            "Abjurer": {
+                "description": "A wizard specializing in protective and warding spells.",
+                "hit_die": 4,
+                "bab_progression": "slow",
+                "spellcasting": true,
+                "spellcasting_stat": "Intelligence",
+                "class_skills": [
+                    "Concentration",
+                    "Knowledge (arcana)",
+                    "Spellcraft"
+                ],
+                "features": [
+                    {"name": "Abjuration Focus", "level": 1, "description": "Gain +1 abjuration spell slot per spell level"}
+                ],
+                "prerequisites": {
+                    "level": 1,
+                    "stats": {}
+                }
+            },
+            "Evoker": {
+                "description": "A wizard specializing in destructive and energy-based spells.",
+                "hit_die": 4,
+                "bab_progression": "slow",
+                "spellcasting": true,
+                "spellcasting_stat": "Intelligence",
+                "class_skills": [
+                    "Concentration",
+                    "Knowledge (arcana)",
+                    "Spellcraft"
+                ],
+                "features": [
+                    {"name": "Evocation Focus", "level": 1, "description": "Gain +1 evocation spell slot per spell level"}
+                ],
+                "prerequisites": {
+                    "level": 1,
+                    "stats": {}
+                }
+            },
+            "Archmage": {
+                "description": "A wizard who sacrifices versatility for unparalleled arcane power.",
+                "hit_die": 4,
+                "bab_progression": "slow",
+                "spellcasting": true,
+                "spellcasting_stat": "Intelligence",
+                "class_skills": [
+                    "Concentration",
+                    "Knowledge (arcana)",
+                    "Spellcraft"
+                ],
+                "features": [
+                    {"name": "High Arcana", "level": 1, "description": "Sacrifice spell slots for powerful abilities"}
+                ],
+                "prerequisites": {
+                    "level": 14,
+                    "stats": {"Intelligence": 15, "Wisdom": 15}
+                }
+            }
+        }
+    },
+    "Assassin": {
+        "description": "A stealthy killer who uses magic and precision to eliminate targets.",
+        "hit_die": 6,
+        "bab_progression": "medium",
+        "spellcasting": true,
+        "spellcasting_stat": "Intelligence",
+        "class_skills": [
+            "Balance",
+            "Bluff",
+            "Climb",
+            "Craft",
+            "Decipher Script",
+            "Disguise",
+            "Escape Artist",
+            "Hide",
+            "Jump",
+            "Listen",
+            "Move Silently",
+            "Open Lock",
+            "Search",
+            "Sense Motive",
+            "Sleight of Hand",
+            "Spot",
+            "Tumble",
+            "Use Rope"
+        ],
+        "features": [
+            {"name": "Sneak Attack", "level": 1, "description": "+1d6 damage against flanked or flat-footed enemies"},
+            {"name": "Death Attack", "level": 1, "description": "Study target to attempt killing blow"}
+        ],
+        "subclasses": {}
+    }
+}

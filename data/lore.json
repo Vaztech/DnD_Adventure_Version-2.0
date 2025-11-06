@@ -1,0 +1,1168 @@
+{
+  "world_name": "The Shattered Realms",
+  "intro": "A world where the blood of gods waters the soil, where civilizations rise from the ashes of fallen titans, and every legend is a lie waiting to be unraveled.",
+
+  "creation_myths": [
+    {
+      "name": "The Shattered Titans",
+      "description": "The first beings were twelve cosmic titans who devoured each other until only their corpses remained. Their bones became continents, their blood the oceans, and their final screams echo as storms."
+    },
+    {
+      "name": "The Hollowing",
+      "description": "When the first humans gazed into the Abyss, their shadows tore free and became Hollows. The Soul King sacrificed himself to seal the rift. (*Bleach*)"
+    },
+    {
+      "name": "The Dragon's Wish",
+      "description": "The dragon Zalama whispered seven words that became Dragon Balls. Their first wish birthed time—but fractured reality. (*Dragon Ball*)"
+    },
+    {
+      "name": "The Dark Continent's Breath",
+      "description": "The known world is an island in the saliva of a slumbering beast. Its dreams became Chimera Ants; its nightmares, the Five Calamities. (*Hunter x Hunter*)"
+    },
+    {
+      "name": "The Eclipse Covenant",
+      "description": "During the first solar eclipse, the Godhand offered power through sacrifice. The blood spilled still stains the moon. (*Berserk*)"
+    },
+    {
+      "name": "The Nen Cataclysm",
+      "description": "The first Nen user's enlightenment ruptured the sky, creating Greed Island and the Zoldyck curse. (*Hunter x Hunter*)"
+    },
+    {
+      "name": "The Saiyan Scourge",
+      "description": "A warrior race crash-landed; their Great Ape rampages carved the wastelands. Warlord Vegeta sleeps beneath a dead volcano. (*Dragon Ball*)"
+    },
+    {
+      "name": "The Quincy Genocide",
+      "description": "The Soul King's children were purged for disrupting rebirth. Their last king, Yhwach, swore to unmake creation. (*Bleach*)"
+    },
+    {
+      "name": "The Bankai Schism",
+      "description": "Rebellious Zanpakutō spirits split the afterlife into Soul Society, Hueco Mundo, and the Living World. (*Bleach*)"
+    },
+    {
+      "name": "The Time Breaker Incident",
+      "description": "A Saiyan fractured time with Dragon Ball magic, creating realms where Frieza always wins. (*Dragon Ball*)"
+    },
+    {
+      "name": "The Ant King's Gambit",
+      "description": "Meruem's death was a ruse. His egg pulses with Nen beneath the Dark Continent. (*Hunter x Hunter*)"
+    },
+    {
+      "name": "The Espada Uprising",
+      "description": "Ten Hollows achieved godhood by devouring their kind. Their fortress, Las Noches, is the Soul King's prison. (*Bleach*)"
+    },
+    {
+      "name": "The Super Saiyan Prophecy",
+      "description": "A golden-haired warrior would save or destroy the world. Twelve have risen; eleven went mad. (*Dragon Ball*)"
+    },
+    {
+      "name": "The Kurta Massacre",
+      "description": "A clan was slaughtered for scarlet eyes that could see Nen curses. Their survivor's vengeance reshaped the underworld. (*Hunter x Hunter*)"
+    },
+    {
+      "name": "The Hogyoku's Betrayal",
+      "description": "The wish-granting orb harvests souls for the Soul King's rebirth. Aizen was its puppet. (*Bleach*)"
+    },
+    {
+      "name": "The Androids' Rebellion",
+      "description": "Dr. Gero's creations gained sentience and slaughtered their makers. Now they pose as heroes. (*Dragon Ball*)"
+    },
+    {
+      "name": "The Phantom Troupe's Heist",
+      "description": "When they stole the Kurta eyes, they didn't realize the eyes were watching back. (*Hunter x Hunter*)"
+    },
+    {
+      "name": "The Namekian Exodus",
+      "description": "Dragon priests fled their dying world, only to learn their Dragon Balls were fragments of Zalama's corpse. (*Dragon Ball*)"
+    },
+    {
+      "name": "The Arrancar Purge",
+      "description": "Shinigami hunted Hollows who gained shinigami powers. The survivors became the Visored. (*Bleach*)"
+    },
+    {
+      "name": "The Tournament of Power",
+      "description": "Gods from twelve universes battled to decide which reality would survive. The losers were erased—or so they claim. (*Dragon Ball*)"
+    }
+  ],
+
+  "pantheons": [
+    {
+      "name": "The Soul Court",
+      "gods": [
+        {
+          "name": "The Soul King",
+          "symbol": "Limbless torso in crystal",
+          "secret": "Allowed his own mutilation to prevent worse."
+        },
+        {
+          "name": "Yhwach",
+          "domain": "Destiny, vengeance",
+          "symbol": "Cross with bleeding eye",
+          "secret": "His 'Almighty' power is stolen from his future corpse."
+        },
+        {
+          "name": "Ichibe Hyosube",
+          "domain": "Names, primordial fear",
+          "symbol": "Brush dripping black blood",
+          "secret": "Erases names to rewrite history."
+        },
+        {
+          "name": "Yamamoto",
+          "domain": "Fire, war",
+          "symbol": "Scorched skeleton in armor",
+          "secret": "His Bankai once burned time itself."
+        },
+        {
+          "name": "Unohana",
+          "domain": "Healing, bloodlust",
+          "symbol": "Serpent coiled around a scalpel",
+          "secret": "Her zanpakuto thirsts for her own death."
+        }
+      ]
+    },
+    {
+      "name": "Dragon Ball Gods",
+      "gods": [
+        {
+          "name": "Zalama",
+          "domain": "Creation, silence",
+          "symbol": "Closed dragon eyes",
+          "secret": "His corpse birthed the Dragon Balls."
+        },
+        {
+          "name": "Shenron",
+          "domain": "Wishes, eternity",
+          "symbol": "Emerald dragon",
+          "secret": "If killed, spawns shadow dragons."
+        },
+        {
+          "name": "Porunga",
+          "domain": "Resurrection, pride",
+          "symbol": "Red dragon with closed eyes",
+          "secret": "Demands a blood toll for mass revivals."
+        }
+      ]
+    },
+    {
+      "name": "Destroyer Pantheon",
+      "gods": [
+        {
+          "name": "Beerus",
+          "domain": "Destruction, caprice",
+          "secret": "Recycles matter for new universes."
+        },
+        {
+          "name": "Whis",
+          "domain": "Time, unspoken truths",
+          "symbol": "Hourglass with nebulas",
+          "secret": "Has erased trillions by reversing time."
+        },
+        {
+          "name": "Champa",
+          "domain": "Gluttony, rivalry",
+          "symbol": "Broken scale with sweets",
+          "secret": "Holds Beerus' original power sealed in his staff."
+        },
+        {
+          "name": "Zeno",
+          "domain": "Oblivion, whimsy",
+          "symbol": "Blank-faced child",
+          "secret": "Erased his own creators out of boredom."
+        }
+      ]
+    },
+    {
+      "name": "Nen Apostles",
+      "gods": [
+        {
+          "name": "Meruem",
+          "domain": "Evolution, tyranny",
+          "symbol": "Crowned insect with human eyes"
+        },
+        {
+          "name": "Nanika",
+          "domain": "Miracles, curses",
+          "symbol": "Black orb with inverted eyes",
+          "secret": "Severed limb of a Dark Continent calamity."
+        },
+        {
+          "name": "Isaac Netero",
+          "domain": "Martial arts, enlightenment",
+          "symbol": "Buddha with a thousand fists",
+          "secret": "His final prayer detonated a miniature Big Bang."
+        },
+        {
+          "name": "Ging Freecss",
+          "domain": "Exploration, neglect",
+          "symbol": "Compass pointing to the void",
+          "secret": "Knows the location of Zalama's corpse."
+        }
+      ]
+    },
+    
+        {
+          "domain": "Decay, time",
+          "symbol": "Crumbling crown",
+          "secret": "His breath ages even gods."
+        },
+        {
+          "name": "Starrk",
+          "domain": "Loneliness, wolves",
+          "symbol": "Twin pistols crossed",
+          "secret": "His soul was split to create another god."
+        },
+        {
+          "name": "Ulquiorra",
+          "domain": "Nihilism, despair",
+          "symbol": "Broken halo",
+          "secret": "His heart was a Hogyoku prototype."
+        }
+      ]
+    }
+    
+    
+    {
+      "gods": [
+        {
+          "name": "Yamoshi",
+          "symbol": "Golden flame in a skull",
+          "secret": "Possesses every Super Saiyan."
+        },
+          "name": "Vegeta I",
+          "domain": "Pride, conquest",
+          "symbol": "Shattered planet",
+          "secret": "His ghost haunts the ruins of Planet Vegeta."
+        },
+        {
+          "name": "Broly",
+          "domain": "Berserker rage, green fire",
+          "symbol": "Tattered Oozaru pelt",
+          "secret": "His power grows infinitely—even in death."
+        }
+      ]
+    },
+    
+    
+    {
+      "name": "Phantom Pantheon",
+        {
+          "name": "Chrollo Lucilfer",
+          "domain": "Theft, borrowed power",
+          "secret": "Steals Nen abilities by killing owners."
+        },
+        {
+          "domain": "Deceit, battle lust",
+          "symbol": "Joker card with fangs",
+          "secret": "His Nen persists after death to hunt the strong."
+        },
+        {
+          "name": "Kurapika",
+          "domain": "Vengeance, scarlet eyes",
+          "symbol": "Chained dagger",
+          "secret": "His Nen vows are slowly killing him."
+        }
+      ]
+    },
+    
+    
+    {
+      "name": "Zanpakuto Spirits",
+      "gods": [
+          "name": "Zangetsu",
+          "domain": "Protection, duality",
+          "symbol": "Tattered black cloak",
+        },
+        {
+          "name": "Ryujin Jakka",
+          "symbol": "Aged staff aflame",
+          "secret": "Obeys only those who seek annihilation."
+        },
+        {
+          "name": "Senbonzakura",
+          "domain": "Beauty, death",
+          "symbol": "Petal-scattered mirror",
+          "secret": "Reflects the wielder's hidden cruelty."
+        }
+      ]
+    },
+   
+    
+    {
+      "name": "Dragon Deities",
+      "gods": [
+        {
+          "domain": "Wishes, eternity",
+          "symbol": "Emerald dragon",
+          "secret": "If killed, spawns shadow dragons."
+        {
+          "name": "Porunga",
+          "domain": "Resurrection, pride",
+          "secret": "Demands a blood toll for mass revivals."
+        },
+        {
+          "name": "Zalama",
+          "domain": "Creation, silence",
+          "symbol": "Dragon with closed eyes",
+          "secret": "His corpse birthed the Dragon Balls."
+        }
+      ]
+    },
+    
+    
+    {
+      "name": "Chimera Ant Queens",
+      "gods": [
+        {
+          "name": "The Progenitor",
+          "symbol": "Ovary with teeth",
+          "secret": "Her first child was the Dark Continent itself."
+        },
+          "name": "Kite",
+          "domain": "Rebirth, chaos",
+          "symbol": "Roulette wheel with a missing number",
+        }
+      ]
+    },
+    
+    
+    {
+      "name": "Time Breakers",
+      "gods": [
+        {
+          "name": "Chronoa",
+          "domain": "Time, paradoxes",
+          "secret": "Erased her own timeline to survive."
+        },
+        {
+          "domain": "Artificial power, rebellion",
+          "symbol": "Cracked android core",
+          "secret": "Houses the soul of a Saiyan god."
+      ]
+    },
+    
+    
+    {
+      "name": "Gotei Captains",
+      "gods": [
+        {
+          "name": "Byakuya Kuchiki",
+          "domain": "Nobility, precision",
+          "symbol": "Scattered cherry blossoms",
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "symbol": "Notched cleaver",
+          "secret": "His eyepatch suppresses godhood."
+        }
+    },
+    
+    
+    {
+      "name": "Z Fighters",
+      "gods": [
+        {
+          "name": "Goku",
+          "domain": "Growth, innocence",
+          "symbol": "Cracked halo",
+          "secret": "His Saiyan blood is 99% divine."
+        {
+          "name": "Vegeta",
+          "domain": "Pride, redemption",
+          "secret": "His soul is bound to Beerus' staff."
+        }
+      ]
+    
+      
+    {
+      "name": "Phantom Troupe",
+      "gods": [
+        {
+          "name": "Feitan",
+          "domain": "Pain, retribution",
+          "symbol": "Umbrella shielding the sun",
+          "secret": "His 'Pain Packer' summons a miniature sun."
+        },
+          "name": "Machi",
+          "domain": "Loyalty, threads",
+          "symbol": "Sewn-shut mouth",
+        }
+      ]
+    },
+    {
+      "name": "Androids",
+      "gods": [
+        {
+          "name": "Cell",
+          "domain": "Perfection, absorption",
+          "symbol": "Wasp with a Saiyan tail",
+          "secret": "His cells whisper plans from alternate timelines."
+        },
+        {
+          "name": "Android 21",
+          "domain": "Hunger, science",
+          "symbol": "Lab coat stained with candy",
+          "secret": "Her human half is a dormant god."
+        }
+      ]
+    },
+    // Espada (Bleach)
+      "name": "Espada",
+      "gods": [
+        {
+          "name": "Grimmjow",
+          "domain": "Hunt, survival",
+          "symbol": "Panther's fang",
+          "secret": "His resurrection is a loop—he dies every century."
+        },
+        {
+          "name": "Harribel",
+          "symbol": "Shark tooth necklace",
+          "secret": "Her Fracción are her own split souls."
+        }
+    },
+    // Dark Continent Calamities (Hunter x Hunter)
+    {
+      "gods": [
+        {
+          "name": "Brion",
+          "domain": "Disease, empathy",
+          "symbol": "Weeping tumor",
+          "secret": "Its 'cure' rewrites the victim's DNA."
+        },
+        {
+          "name": "Ai",
+          "domain": "Love, possession",
+          "secret": "Nanika is its lost fragment."
+        }
+      ]
+  ],
+
+  // ========================
+  
+  "factions": [
+   
+    {
+      "name": "Gotei 13",
+      "alignment": "Lawful Neutral",
+      "goal": "Protect soul balance",
+      "secret": "Captain-commander contains the Soul King's right arm."
+    },
+    {
+      "name": "Wandenreich",
+      "alignment": "Lawful Evil",
+    },
+    {
+      "goal": "Survive persecution",
+      "secret": "Their Hollow masks are fragments of Barragan's crown."
+      "name": "Z Fighters",
+      "goal": "Protect Earth",
+      "secret": "Their battles cause more destruction than villains."
+    {
+      "name": "Red Ribbon Army",
+      "alignment": "Lawful Evil",
+      "goal": "World domination",
+      "secret": "Funded by Beerus to keep mortals in check."
+    },
+    {
+      "name": "Namekian Elders",
+      "alignment": "Neutral Good",
+      "goal": "Guard Dragon Balls",
+      "secret": "Their planet is Zalama's fossilized heart."
+    },
+    
+    
+    {
+      "name": "Phantom Troupe",
+      "alignment": "Neutral Evil",
+      "goal": "Plunder and chaos",
+      "secret": "Cursed with Nen geas tied to Meteor City."
+    },
+     { "name": "Hunter Association",
+      "alignment": "True Neutral",
+      "goal": "Knowledge and order",
+      "secret": "Founded by Netero to contain the Dark Continent."
+  }
+    },
+    {
+      "name": "Kurta Clan",
+      "alignment": "Chaotic Neutral",
+      "goal": "Preserve scarlet eyes",
+      "secret": "Their eyes record the Soul King's memories."
+    },
+    // Mixed
+    {
+      "alignment": "Lawful Good",
+      "goal": "Fix temporal rifts",
+      "secret": "Led by a future version of Whis."
+    },
+    {
+      "alignment": "Chaotic Evil",
+      "goal": "Reclaim Hueco Mundo",
+      "secret": "Worship Aizen as a messiah."
+    },
+    {
+      "name": "Androids",
+      "alignment": "Neutral Evil",
+      "goal": "Replace humanity",
+      "secret": "Their creator is a Whis fanatic."
+    },
+    {
+      "name": "Zoldyck Family",
+      "alignment": "Lawful Neutral",
+      "secret": "Their butler is a reformed Menos Grande."
+    },
+    {
+      "name": "Saiyan Loyalists",
+      "alignment": "Chaotic Neutral",
+      "secret": "Plan to wish back Frieza as their king."
+    },
+    {
+      "name": "Quincy Survivors",
+      "alignment": "Neutral Good",
+      "goal": "Destroy Hollows",
+      "secret": "Their arrows are made of Yhwach's bones."
+    },
+    {
+      "name": "Chimera Ant Hive",
+      "alignment": "Neutral Evil",
+      "goal": "Evolve beyond humanity",
+      "secret": "Their queen is a reincarnated Namekian."
+    },
+    {
+      "name": "Dragon Priests",
+      "alignment": "Lawful Good",
+      "goal": "Guard Shenron",
+      "secret": "They age backward with each wish granted."
+    },
+    {
+      "name": "Hollow Cult",
+      "alignment": "Chaotic Evil",
+      "goal": "Devour souls",
+      "secret": "Their leader is Ichigo's Hollow twin."
+    },
+    {
+      "name": "Nen Exorcists",
+      "alignment": "Neutral Good",
+      "goal": "Remove curses",
+      "secret": "Their leader is Nanika's sibling."
+    },
+    {
+      "name": "Shinigami Rebels",
+      "alignment": "Chaotic Neutral",
+      "goal": "Overthrow Soul King",
+      "secret": "Their Bankai are sentient and rebellious."
+    },
+    {
+      "name": "Dark Continent Expedition",
+      "alignment": "True Neutral",
+      "goal": "Explore the unknown",
+      "secret": "Funded by the Phantom Troupe's loot."
+    },
+    {
+      "name": "Shadow Dragons",
+      "alignment": "Neutral Evil",
+      "goal": "Corrupt wishes",
+      "secret": "Born from Shenron's negative energy."
+    },
+    {
+      "name": "Godhand",
+      "alignment": "Chaotic Evil",
+      "goal": "Spread suffering",
+      "secret": "Their members are former Gotei captains."
+    },
+    {
+      "name": "Meteor City Outcasts",
+      "alignment": "Neutral",
+      "goal": "Survive",
+      "secret": "Their trash heaps hide a Dragon Ball."
+    },
+    {
+      "name": "Soul Reapers",
+      "alignment": "Lawful Neutral",
+      "goal": "Maintain balance",
+      "secret": "Their zanpakuto are prison keys for gods."
+    },
+    {
+      "name": "Bio-Androids",
+      "alignment": "Neutral Evil",
+      "goal": "Absorb power",
+      "secret": "Their cells contain Saiyan god DNA."
+    },
+    {
+      "name": "Nen Beast Tamers",
+      "alignment": "Chaotic Neutral",
+      "goal": "Control Nen beasts",
+      "secret": "Their beasts are fragments of Meruem."
+    },
+    {
+      "name": "Time Breakers",
+      "alignment": "Lawful Evil",
+      "goal": "Alter history",
+      "secret": "Their leader is a future Zamasu."
+    },
+    {
+      "name": "Hollowfied Shinigami",
+      "alignment": "Neutral",
+      "goal": "Embrace duality",
+      "secret": "Their masks suppress Bankai evolution."
+    },
+    {
+      "name": "Dragon Ball Hunters",
+      "alignment": "Chaotic Good",
+      "goal": "Collect Dragon Balls",
+      "secret": "They erase their own wishes afterward."
+    },
+    {
+      "name": "Quincy Archers",
+      "alignment": "Lawful Neutral",
+      "goal": "Purify Hollows",
+      "secret": "Their bows are made from Yhwach's ribs."
+    },
+    {
+      "name": "Artificial Humans",
+      "alignment": "Neutral",
+      "goal": "Find purpose",
+      "secret": "Their energy cores are mini-Hogyoku."
+    },
+    {
+      "name": "Zanpakuto Rebellion",
+      "alignment": "Chaotic Neutral",
+      "goal": "Free zanpakuto spirits",
+      "secret": "Their leader is Zangetsu's shadow."
+    },
+    {
+      "name": "Chimera Ant Hybrids",
+      "alignment": "Neutral Evil",
+      "goal": "Create a new species",
+      "secret": "Their queen is pregnant with Meruem's clone."
+    },
+    {
+      "name": "Soul Society Nobles",
+      "alignment": "Lawful Evil",
+      "goal": "Control the afterlife",
+      "secret": "They trade souls with Beerus for power."
+    },
+    {
+      "name": "Nen Curse Victims",
+      "alignment": "Neutral",
+      "goal": "Break their curses",
+      "secret": "Their curses are sentient Nen beasts."
+    },
+    {
+      "name": "Dark Continent Guides",
+      "alignment": "True Neutral",
+      "goal": "Lead expeditions",
+      "secret": "They are Ai's puppets."
+    },
+    {
+      "name": "Shadow Assassins",
+      "alignment": "Neutral Evil",
+      "goal": "Eliminate targets",
+      "secret": "They use Kurta eyes to track prey."
+    },
+    {
+      "name": "Hollow Knights",
+      "alignment": "Lawful Neutral",
+      "goal": "Protect Hueco Mundo",
+      "secret": "Their armor is made of Menos Grande bones."
+    },
+    {
+      "name": "Wish Granters",
+      "alignment": "Chaotic Good",
+      "goal": "Fulfill desires",
+      "secret": "They are Shenron's mortal avatars."
+    }
+  ],
+
+ 
+  "historical_events": [
+    {
+      "name": "Quincy Blood War",
+      "year": "1000 years ago",
+      "description": "Genocide that nearly collapsed soul balance.",
+      "aftermath": "Survivors developed the 'Antithesis' power."
+    },
+    {
+      "name": "Saiyan Genocide",
+      "year": "Age 737",
+      "description": "Frieza destroyed Planet Vegeta.",
+      "aftermath": "Great Ape DNA lingers in Earth's population."
+      "year": "1999 A.D.",
+      "description": "Global alliance exterminated the Ant Queen's hive.",
+      "aftermath": "Survivors evolve underground."
+    },
+      "description": "The twelve titans tore each other apart.",
+      "aftermath": "Their fragments became the first gods."
+    },
+    {
+      "aftermath": "Ichigo Kurosaki awakened his Shinigami powers."
+    },
+    {
+      "name": "Cell Games",
+      "year": "Age 767",
+      "description": "Cell challenged the world's warriors.",
+      "aftermath": "Gohan's hidden power emerged."
+    },
+    {
+      "name": "Meteor City Uprising",
+      "year": "1986 A.D.",
+      "description": "Phantom Troupe slaughtered the mafia.",
+      "aftermath": "Their legend became a Nen curse."
+    },
+    {
+      "name": "Soul King's Mutilation",
+      "year": "Prehistory",
+      "description": "The Soul King was dismembered to stabilize reality.",
+      "aftermath": "His limbs gained sentience."
+    },
+    {
+      "name": "Namekian Dragon Balls Theft",
+      "year": "Age 762",
+      "description": "Frieza stole the Dragon Balls.",
+      "aftermath": "Namekians scattered across the cosmos."
+    },
+    {
+      "name": "Heaven's Arena Massacre",
+      "year": "2000 A.D.",
+      "description": "Hisoka killed dozens of Nen users.",
+      "aftermath": "The arena became a Nen beacon."
+    },
+    {
+      "name": "Bankai Rebellion",
+      "year": "800 years ago",
+      "description": "Zanpakuto spirits rebelled against Shinigami.",
+      "aftermath": "The Visored were created."
+    },
+    {
+      "name": "Shadow Dragon Emergence",
+      "year": "Age 789",
+      "description": "Negative energy birthed shadow dragons.",
+      "aftermath": "Shenron was temporarily slain."
+    },
+    {
+      "name": "Dark Continent Expedition",
+      "year": "2003 A.D.",
+      "description": "Netero led a doomed voyage.",
+      "aftermath": "Only his Nen returned."
+    },
+    {
+      "name": "Androids' Uprising",
+      "year": "Age 788",
+      "description": "Androids turned on humanity.",
+      "aftermath": "Gero's lab became a Nen nexus."
+    },
+    {
+      "name": "Hueco Mundo Conquest",
+      "year": "2004 A.D.",
+      "description": "Aizen took over Hueco Mundo.",
+      "aftermath": "Las Noches became his palace."
+    },
+    {
+      "name": "Greed Island Incident",
+      "year": "1998 A.D.",
+      "description": "A Nen game became reality.",
+      "aftermath": "The game's creator vanished."
+    },
+    {
+      "name": "Super Saiyan God Ritual",
+      "year": "Age 778",
+      "description": "Six Saiyans channeled their energy.",
+      "aftermath": "Goku ascended to godhood."
+    },
+    {
+      "name": "Kurta Clan Massacre",
+      "year": "1995 A.D.",
+      "description": "Phantom Troupe slaughtered the Kurta.",
+      "aftermath": "Kurapika's eyes turned scarlet."
+    },
+    {
+      "name": "Soul Society Betrayal",
+      "year": "2002 A.D.",
+      "description": "Aizen framed the Gotei 13.",
+      "aftermath": "The Hogyoku awakened."
+    },
+    {
+      "name": "Dragon Ball Scattering",
+      "year": "Age 720",
+      "description": "The Dragon Balls were lost.",
+      "aftermath": "Shenron's power fragmented."
+    }
+  ],
+
+  
+  "magic_systems": [
+      "name": "Nen",
+      "source": "Life energy harnessed through training.",
+      "types": ["Enhancement", "Transmutation", "Conjuration", "Manipulation", "Emission", "Specialization"],
+      "cost": "Attracts sentient Nen curses."
+    },
+    {
+      "name": "Reiatsu",
+      "source": "Spiritual pressure from souls.",
+      "types": ["Zanjutsu", "Kido", "Hoho", "Hakuda"],
+      "cost": "Creates Menos Grande distortions."
+    },
+    {
+      "name": "Ki",
+      "source": "Internal energy amplified in combat.",
+      "types": ["Kamehameha", "Galick Gun", "Destructo Disc", "Spirit Bomb"],
+      "cost": "Causes cellular decay."
+    },
+      "name": "Hollowfication",
+      "source": "Hollow energy merging with Shinigami.",
+      "types": ["Cero", "Sonido", "Hierro", "Resurreccion"],
+      "source": "Zanpakuto's true form.",
+    {
+      "name": "Hollowfication",
+      "source": "Hollow energy merging with Shinigami.",
+      "types": ["Cero", "Sonido", "Hierro", "Resurreccion"],
+      "cost": "Shortens the user's lifespan."
+    },
+    {
+      "name": "Zanpakuto's True Form",
+      "source": "Zanpakuto's true form.",
+      "types": ["Melee", "Elemental", "Illusion", "Reality Warping"],
+      "cost": "Shortens the user's lifespan."
+    },
+    {
+      "name": "Shenron's Power",
+      "source": "Shenron's power.",
+      "types": ["Resurrection", "Immortality", "Reality Alteration"],
+      "cost": "Drains the summoner's lifespan."
+    },
+      "cost": "Disrupts soul reincarnation."
+    },
+    {
+      "name": "Time Manipulation",
+      "source": "Whis' staff.",
+      "types": ["Rewind", "Stasis", "Acceleration"],
+      "cost": "Erases parallel timelines."
+    },
+    {
+      "name": "Nen Curses",
+      "source": "Vows and limitations.",
+      "types": ["Post-Mortem Nen", "Conditional Power", "Geass"],
+      "cost": "Binds the user's fate."
+    },
+    {
+      "name": "Fusion",
+      "source": "Dance or Potara earrings.",
+      "types": ["Temporary", "Permanent"],
+      "cost": "Risk of unstable personality merge."
+    },
+    {
+      "name": "Hakai",
+      "source": "Beerus' divine energy.",
+      "types": ["Erase matter", "Erase souls"],
+      "cost": "Requires godly ki."
+    },
+    {
+      "name": "Kido",
+      "source": "Shinigami spells.",
+      "types": ["Hadō", "Bakudō", "Kaidō"],
+      "cost": "Drains reiatsu."
+    },
+    {
+      "name": "Nen Exorcism",
+      "source": "Removing curses.",
+      "types": ["Purge", "Transfer", "Seal"],
+      "cost": "Transfers the curse to the exorcist."
+    },
+    {
+      "name": "Zanpakuto Manifestation",
+      "source": "Inner spirit.",
+      "types": ["Shikai", "Bankai"],
+      "cost": "Risk of spirit rebellion."
+    },
+    {
+      "name": "Dark Continent Nen",
+      "source": "The Dark Continent.",
+      "types": ["Calamity Mimicry", "Guide Creation", "Territory Warping"],
+  
+
+  "cursed_artifacts": [
+    {
+      "name": "Hogyoku",
+      "power": "Grants desires by warping reality.",
+      "curse": "Feeds on loved ones' souls first."
+    },
+    {
+      "name": "Dragon Balls",
+      "power": "Summons Shenron for wishes.",
+      "curse": "Drains summoner's lifespan."
+    },
+    {
+      "name": "Kurta Eyes",
+      "power": "See Nen curses and predict danger.",
+      "curse": "Record horrors, driving the user mad."
+      "power": "Manifests a spirit's power.",
+      "curse": "The spirit may rebel."
+    },
+    {
+      "name": "Phantom Troupe's Book",
+      "power": "Steals Nen abilities.",
+      "curse": "Requires the owner's death."
+      "curse": "Players risk Nen possession."
+    },
+    {
+      "name": "Soul King's Right Arm",
+      "power": "Unknown",
+      "curse": "Seeks to reunite with the Soul King."
+    },
+    {
+      "name": "Yhwach's Blood",
+      "power": "Grants Schrift abilities.",
+      "curse": "Binds the user to Yhwach's will."
+    },
+    },
+    {
+      "name": "Meruem's Egg",
+      "power": "Rebirths the Ant King.",
+      "curse": "Absorbs nearby life to hatch."
+    },
+    {
+      "name": "Whis' Staff",
+      "power": "Reverses time.",
+      "curse": "Erases the user's memories."
+    },
+    {
+      "name": "Nanika's Hand",
+      "power": "Grants miracles.",
+      "curse": "Demands equivalent suffering."
+    },
+    {
+      "name": "Frieza's Cybernetic Parts",
+      "power": "Enhances strength.",
+      "curse": "Inflicts eternal pain."
+    },
+    {
+      "name": "Aizen's Illusion Orb",
+      "power": "Controls senses.",
+      "curse": "Blinds the user over time."
+    },
+    {
+      "name": "Broly's Restraints",
+      "power": "Suppresses rage.",
+      "curse": "Amplifies power when broken."
+    },
+    {
+      "name": "Dark Continent Map",
+      "power": "Guides to the unknown.",
+      "curse": "The map eats travelers."
+    },
+    {
+      "name": "Ichigo's Hollow Mask",
+      "power": "Boosts Shinigami power.",
+      "curse": "Hollows the user's soul."
+    },
+    {
+      "name": "Cell's Core",
+      "power": "Allows regeneration.",
+      "curse": "Houses Frieza's consciousness."
+    },
+    {
+      "name": "Netero's Prayer Beads",
+      "power": "Summons the 100-Type Guanyin.",
+      "curse": "Each use shortens the user's life."
+    },
+    {
+      "name": "Zamasu's Time Ring",
+      "power": "Allows time travel.",
+      "curse": "Traps the user in a loop."
+    },
+    {
+      "name": "Kurapika's Chains",
+      "power": "Bind Nen users.",
+  
+  "legendary_creatures": [
+    {
+      "name": "Menos Grande",
+      "description": "Giant Hollows from merged souls.",
+      "threat": "Cero blasts erase districts."
+    },
+    {
+      "name": "Shenron",
+      "description": "Eternal dragon of wishes.",
+      "threat": "If killed, spawns shadow dragons."
+    },
+    {
+      "name": "Chimera Ant King",
+      "description": "Perfect human-insect hybrid.",
+      "threat": "Absorbs Nen by devouring users."
+    },
+    {
+      "name": "Great Ape",
+    {
+      "name": "Espada",
+      "description": "Hollows granted godlike power.",
+      "threat": "Their Resurreccion warps reality."
+    {
+      "name": "Shadow Dragons",
+      "description": "Born from negative Dragon Ball energy.",
+      "threat": "May rebel against wielders."
+    },
+    {
+      "name": "Nen Beasts",
+      "description": "Sentient manifestations of Nen.",
+      "threat": "Outlive their creators."
+    },
+    },
+    {
+      "name": "Dark Continent Calamities",
+      "description": "Entities of pure chaos.",
+      "threat": "Their presence distorts physics."
+    },
+    {
+      "name": "Bio-Android",
+      "description": "Perfect lifeform.",
+      "threat": "Absorbs DNA to evolve."
+    },
+    {
+      "name": "Hollowfied Shinigami",
+      "description": "Shinigami with Hollow powers.",
+      "threat": "Their masks suppress sanity."
+    },
+    {
+      "name": "Phantom Troupe's Nen Curses",
+      "description": "Sentient curses from Meteor City.",
+      "threat": "Pursue thieves eternally."
+    },
+    {
+      "name": "Time Breakers",
+      "description": "Alternate timeline invaders.",
+      "threat": "Erase history to exist."
+    },
+    {
+      "name": "Quincy Shadows",
+      "description": "Yhwach's soul fragments.",
+      "threat": "Steal powers from the future."
+    },
+    {
+      "name": "Dragon Priests",
+      "description": "Guardians of Dragon Balls.",
+      "threat": "Age backward into infancy."
+    },
+    {
+      "name": "Artificial Humans",
+      "description": "Cyborgs with infinite energy.",
+      "threat": "Their cores can detonate."
+    },
+    {
+      "name": "Visored",
+      "description": "Shinigami-Hollow hybrids.",
+      "threat": "Their Hollows may awaken."
+    },
+    {
+      "name": "Nen Exorcists",
+      "description": "Specialists in curse removal.",
+      "threat": "Their techniques backfire."
+    },
+    {
+      "name": "Soul King's Limbs",
+      "description": "Sentient body parts.",
+      "threat": "Seek to reunite and rebel."
+    },
+    {
+      "name": "Chimera Ant Soldiers",
+      "description": "Elite hybrid warriors.",
+      "threat": "Evolve mid-battle."
+    },
+    {
+      "name": "Godhand",
+      "description": "Demonic apostles.",
+      "threat": "Grant power through sacrifice."
+    },
+    {
+      "name": "Z Fighters",
+      "description": "Earth's protectors.",
+      "threat": "Their battles destroy planets."
+    },
+    {
+      "name": "Hollow Saints",
+      "description": "Deified Hollows.",
+      "threat": "Their breath decays time."
+    },
+    {
+      "name": "Nen Apostles",
+      "description": "Godlike Nen users.",
+      "threat": "Their aura warps reality."
+    },
+    {
+      "name": "Saiyan Ancestors",
+      "description": "Primordial Saiyan spirits.",
+      "threat": "Possess descendants."
+    },
+    {
+      "name": "Phantom Pantheon",
+      "description": "Deified thieves.",
+      "threat": "Steal divine power."
+    },
+    {
+      "name": "Dragon Deities",
+      "description": "Wish-granting dragons.",
+      "threat": "Their death spawns horrors."
+    },
+    {
+      "name": "Time Patrol",
+      "description": "Temporal enforcers.",
+      "threat": "Erase timeline deviations."
+    },
+    {
+      "name": "Androids' Rebellion",
+      "description": "Sentient machines.",
+      "threat": "Outlive their creators."
+    },
+    {
+      "name": "Soul Society Rebels",
+      "description": "Shinigami traitors.",
+      "threat": "Their Bankai evolve unnaturally."
+    }
+  ],
+
+ 
+  "dimensional_rifts": [
+    {
+      "name": "Garganta",
+      "location": "Between Hueco Mundo and Soul Society",
+      "properties": "Void where time flows erratically."
+    },
+    {
+      "name": "Hyperbolic Time Chamber",
+      "location": "Kami's Lookout",
+      "properties": "Year inside = day outside; erodes sanity."
+    },
+    {
+      "name": "Dark Continent Gate",
+      "location": "Beyond known world",
+      "properties": "Requires 'guide' Nen beast to find."
+    },
+    {
+      "name": "Dragon Ball Nexus",
+      "location": "Where wishes are granted",
+      "properties": "Reality warps unpredictably."
+    },
+    {
+      "name": "Soul King's Palace",
+      "location": "Above Soul Society",
+      "properties": "Time stops for non-gods."
+    },
+    {
+      "name": "Time Breaker's Void",
+      "location": "Outside timelines",
+    {
+      "name": "Nen Space",
+      "location": "Within Greed Island",
+      "properties": "A pocket dimension shaped by Nen."
+    },
+    {
+      "name": "Afterlife Tournament Arena",
+      "location": "Other World",
+      "properties": "The dead fight for resurrection."
+    },
+    {
+      "name": "Zalama's Tomb",
+      "location": "Namekian core",
+      "properties": "Dragon Ball energy resurrects the dead."
+    }
+  ]
+}

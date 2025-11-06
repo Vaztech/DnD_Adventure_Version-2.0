@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "The Sunken Citadel",
+    "type": "Dungeon_Crawl",
+    "category": "Adventure_Types",
+    "description": "Explore the Sunken Citadel and defeat the goblin leader.",
+    "offered_by": [
+      "Elder Bran",
+      "Sister Naeva",
+      "Oracle Tiri"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "target": "Goblin",
+        "quantity": 5,
+        "location": null
+      },
+      {
+        "type": "kill",
+        "target": "Goblin Leader",
+        "quantity": 1,
+        "location": "97,96"
+      }
+    ],
+    "rewards": {
+      "xp": 200,
+      "gold": 50,
+      "items": [
+        {
+          "name": "Potion of Cure Light Wounds",
+          "quantity": 2
+        }
+      ]
+    },
+    "prerequisites": {
+      "level": 1,
+      "quests_completed": []
+    },
+    "status": "available"
+  },
+  {
+    "id": 2,
+    "name": "Shadows of the City",
+    "type": "Urban_Adventure",
+    "category": "Urban_Adventure",
+    "description": "Investigate Zhentarim activity in the city.",
+    "offered_by": [
+      "Captain Varn",
+      "Sergeant Kora",
+      "Scout Tolen"
+    ],
+    "objectives": [
+      {
+        "type": "collect",
+        "target": "Zhentarim Documents",
+        "quantity": 3,
+        "location": null
+      }
+    ],
+    "rewards": {
+      "xp": 150,
+      "gold": 30,
+      "items": [
+        {
+          "name": "Dagger",
+          "quantity": 1
+        }
+      ]
+    },
+    "prerequisites": {
+      "level": 2,
+      "quests_completed": [
+        1
+      ]
+    },
+    "status": "available"
+  },
+  {
+    "id": 3,
+    "name": "Lost Glamour",
+    "type": "Feywild_Quests",
+    "category": "Feywild_Quests",
+    "description": "Recover a lost fey artifact from the Feywild.",
+    "offered_by": [
+      "Witchlight Jax",
+      "Fey-Touched Milo"
+    ],
+    "objectives": [
+      {
+        "type": "collect",
+        "target": "Fey Artifact",
+        "quantity": 1,
+        "location": "95,95"
+      }
+    ],
+    "rewards": {
+      "xp": 250,
+      "gold": 75,
+      "items": [
+        {
+          "name": "Moonlit Cloak",
+          "quantity": 1
+        }
+      ]
+    },
+    "prerequisites": {
+      "level": 3,
+      "quests_completed": []
+    },
+    "status": "available"
+  }
+]

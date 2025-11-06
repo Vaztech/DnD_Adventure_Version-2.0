@@ -1,0 +1,2247 @@
+{
+  "Sorcerer/Wizard": {
+    "school_restrictions": {
+      "Abjuration": ["Conjuration", "Necromancy"],
+      "Conjuration": ["Necromancy", "Illusion"],
+      "Divination": ["None (Divination is prohibited)"],
+      "Enchantment": ["Illusion", "Necromancy"],
+      "Evocation": ["Enchantment", "Necromancy"],
+      "Illusion": ["Evocation", "Necromancy"],
+      "Necromancy": ["Enchantment", "Illusion"],
+      "Transmutation": ["Abjuration", "Enchantment"]
+    },
+    "level_0": [
+      {
+        "name": "Acid Splash",
+        "school": "Conjuration (Creation) [Acid]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "effect": "One missile of acid",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "You fire a small orb of acid that deals 1d3 acid damage.",
+        "damage": "1d3 acid"
+      },
+      {
+        "name": "Dancing Lights",
+        "school": "Evocation [Light]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "effect": "Up to four lights",
+        "duration": "1 minute (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Creates torches or other lights that you can move."
+      },
+      {
+        "name": "Detect Magic",
+        "school": "Divination",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "60 ft.",
+        "area": "Cone-shaped emanation",
+        "duration": "Concentration, up to 1 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Detects spells and magic items within range."
+      },
+      {
+        "name": "Ray of Frost",
+        "school": "Evocation [Cold]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "effect": "Ray",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "Ray deals 1d3 cold damage.",
+        "damage": "1d3 cold"
+      },
+      {
+        "name": "Mage Hand",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One nonmagical, unattended object weighing up to 5 lb.",
+        "duration": "Concentration",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "5-pound telekinesis."
+      }
+    ],
+    "level_1": [
+      {
+        "name": "Magic Missile",
+        "school": "Evocation [Force]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "target": "Up to five creatures, no two of which can be more than 15 ft. apart",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "A missile of magical energy darts forth and strikes its target, dealing 1d4+1 force damage.",
+        "damage": "1d4+1 per missile (force)",
+        "notes": "Cannot target objects."
+      },
+      {
+        "name": "Shield",
+        "school": "Abjuration [Force]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Invisible disc provides +4 shield bonus to AC and blocks magic missiles.",
+        "bonus": "+4 shield AC"
+      },
+      {
+        "name": "Benign Transposition",
+        "school": "Conjuration (Teleportation)",
+        "source": "Complete Arcane",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "You and one willing creature",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Swap places with a willing ally."
+      },
+      {
+        "name": "Nerveskitter",
+        "school": "Transmutation",
+        "source": "Spell Compendium",
+        "casting_time": "Immediate action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "+5 bonus on Initiative check.",
+        "bonus": "+5 Initiative"
+      }
+    ],
+    "level_2": [
+      {
+        "name": "Melf's Acid Arrow",
+        "school": "Conjuration (Creation) [Acid]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "effect": "One arrow of acid",
+        "duration": "1 round + 1 round per three levels",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Fires an arrow that deals 2d4 initial damage and 2d4 next round.",
+        "damage": "2d4 initial + 2d4 next round (acid)"
+      },
+      {
+        "name": "Invisibility",
+        "school": "Illusion (Glamer)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal or touch",
+        "target": "You or a creature or object weighing no more than 100 lb./level",
+        "duration": "1 min./level (D)",
+        "saving_throw": "Will negates (harmless) or Will negates (harmless, object)",
+        "spell_resistance": "Yes (harmless) or Yes (harmless, object)",
+        "description": "Subject becomes invisible for duration or until it attacks."
+      },
+      {
+        "name": "Glitterdust",
+        "school": "Conjuration (Creation)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "area": "10-ft.-radius spread",
+        "duration": "1 round/level",
+        "saving_throw": "Will negates (blinding only)",
+        "spell_resistance": "No",
+        "description": "Outlines invisible creatures, blinds some."
+      }
+    ],
+    "level_3": [
+      {
+        "name": "Fireball",
+        "school": "Evocation [Fire]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "area": "20-ft.-radius spread",
+        "duration": "Instantaneous",
+        "saving_throw": "Reflex half",
+        "spell_resistance": "Yes",
+        "description": "Explosion deals 1d6 fire damage per caster level.",
+        "damage": "1d6/level (max 10d6, fire)",
+        "notes": "Sets flammable objects alight."
+      },
+      {
+        "name": "Haste",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature/level, no two of which can be more than 30 ft. apart",
+        "duration": "1 round/level",
+        "saving_throw": "Fortitude negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Subjects move and act more quickly (+1 attack, +1 AC, +30 ft speed).",
+        "bonus": "+1 attack, +1 AC, +30 ft speed"
+      },
+      {
+        "name": "Displacement",
+        "school": "Illusion (Glamer)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "1 round/level (D)",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Attacks have 50% miss chance.",
+        "bonus": "50% miss chance"
+      }
+    ],
+    "level_4": [
+      {
+        "name": "Polymorph",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Willing creature touched",
+        "duration": "1 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Transforms subject into another creature, gaining its physical form and abilities.",
+        "notes": "Doesn't grant supernatural or spell-like abilities."
+      },
+      {
+        "name": "Stoneskin",
+        "school": "Abjuration",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "10 min./level or until discharged",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Grants DR 10/adamantine against physical attacks.",
+        "bonus": "DR 10/adamantine",
+        "material": "Diamond dust worth 250 gp"
+      },
+      {
+        "name": "Enervation",
+        "school": "Necromancy",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "effect": "Ray of negative energy",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "Subject gains 1d4 negative levels."
+      }
+    ],
+    "level_5": [
+      {
+        "name": "Teleport",
+        "school": "Conjuration (Teleportation)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal and touch",
+        "target": "You and touched objects or other touched willing creatures",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Instantly transports you to a designated destination.",
+        "notes": "5% chance of mishap per 500 miles traveled."
+      },
+      {
+        "name": "Cone of Cold",
+        "school": "Evocation [Cold]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "60 ft.",
+        "area": "Cone-shaped burst",
+        "duration": "Instantaneous",
+        "saving_throw": "Reflex half",
+        "spell_resistance": "Yes",
+        "description": "Deals 1d6 cold damage per level.",
+        "damage": "1d6/level (max 15d6, cold)"
+      },
+      {
+        "name": "Wall of Force",
+        "school": "Evocation [Force]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "effect": "Wall whose area is up to one 10-ft. square/level",
+        "duration": "1 round/level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Invisible wall is immune to damage."
+      }
+    ],
+    "level_6": [
+      {
+        "name": "Disintegrate",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "target": "One creature, or one object of up to 10 cu. ft./level",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude partial (object)",
+        "spell_resistance": "Yes",
+        "description": "Green ray deals 2d6/level damage (max 40d6); completely destroys objects.",
+        "damage": "2d6/level (max 40d6)"
+      },
+      {
+        "name": "Contingency",
+        "school": "Evocation",
+        "source": "Player's Handbook",
+        "casting_time": "10 minutes",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 day/level or until discharged",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Sets trigger condition for another spell.",
+        "material": "Ivory statuette worth 1,500 gp"
+      }
+    ],
+    "level_7": [
+      {
+        "name": "Finger of Death",
+        "school": "Necromancy [Death]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One living creature",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude partial",
+        "spell_resistance": "Yes",
+        "description": "Kills one subject with 10d6 +1/level damage.",
+        "damage": "10d6 +1/level"
+      },
+      {
+        "name": "Limited Wish",
+        "school": "Universal",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "See text",
+        "target": "See text",
+        "duration": "See text",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Alters reality within limits (duplicates any spell of 6th level or lower).",
+        "xp_cost": "300 XP",
+        "notes": "Less powerful version of wish"
+      }
+    ],
+    "level_8": [
+      {
+        "name": "Horrid Wilting",
+        "school": "Necromancy",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "target": "Living creatures, no two of which can be more than 60 ft. apart",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude half",
+        "spell_resistance": "Yes",
+        "description": "Deals 1d6/level damage within 30-ft. radius.",
+        "damage": "1d6/level"
+      },
+      {
+        "name": "Mind Blank",
+        "school": "Abjuration",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature",
+        "duration": "24 hours",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Subject is immune to mental/emotional magic and scrying."
+      }
+    ],
+    "level_9": [
+      {
+        "name": "Wish",
+        "school": "Universal",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "See text",
+        "target": "See text",
+        "duration": "See text",
+        "saving_throw": "See text",
+        "spell_resistance": "See text",
+        "description": "Alters reality within limits (duplicates any spell of 8th level or lower).",
+        "xp_cost": "5,000 XP",
+        "notes": "Powerful but dangerous; may have unintended consequences."
+      },
+      {
+        "name": "Arcane Fusion",
+        "school": "Transmutation",
+        "source": "Complete Mage",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Cast two lower-level spells simultaneously.",
+        "notes": "Must have two spells of 4th level or lower prepared"
+      },
+      {
+        "name": "Shapechange",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "10 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Transform into any creature and change forms at will."
+      }
+    ]
+  },
+  "Cleric": {
+    "domains": {
+      "Air": {
+        "level_1": "Obscuring Mist",
+        "level_2": "Wind Wall",
+        "level_3": "Gaseous Form",
+        "level_4": "Air Walk",
+        "level_5": "Control Winds",
+        "level_6": "Chain Lightning",
+        "level_7": "Elemental Body (Air)",
+        "level_8": "Whirlwind",
+        "level_9": "Elemental Swarm (Air)"
+      },
+      "Death": {
+        "level_1": "Cause Fear",
+        "level_2": "Death Knell",
+        "level_3": "Animate Dead",
+        "level_4": "Death Ward",
+        "level_5": "Slay Living",
+        "level_6": "Create Undead",
+        "level_7": "Destruction",
+        "level_8": "Create Greater Undead",
+        "level_9": "Wail of the Banshee"
+      },
+      "Healing": {
+        "level_1": "Cure Light Wounds",
+        "level_2": "Cure Moderate Wounds",
+        "level_3": "Cure Serious Wounds",
+        "level_4": "Cure Critical Wounds",
+        "level_5": "Cure Light Wounds, Mass",
+        "level_6": "Heal",
+        "level_7": "Regenerate",
+        "level_8": "Cure Critical Wounds, Mass",
+        "level_9": "Mass Heal"
+      },
+      "War": {
+        "level_1": "Magic Weapon",
+        "level_2": "Spiritual Weapon",
+        "level_3": "Magic Vestment",
+        "level_4": "Divine Power",
+        "level_5": "Flame Strike",
+        "level_6": "Blade Barrier",
+        "level_7": "Power Word Blind",
+        "level_8": "Power Word Stun",
+        "level_9": "Power Word Kill"
+      }
+    },
+    "level_0": [
+      {
+        "name": "Cure Minor Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 1 point of damage.",
+        "healing": "1 point"
+      },
+      {
+        "name": "Detect Magic",
+        "school": "Divination",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "60 ft.",
+        "area": "Cone-shaped emanation",
+        "duration": "Concentration, up to 1 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Detects spells and magic items within range."
+      },
+      {
+        "name": "Guidance",
+        "school": "Divination",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "1 minute or until discharged",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "+1 on one attack roll, saving throw, or skill check.",
+        "bonus": "+1 to one roll"
+      }
+    ],
+    "level_1": [
+      {
+        "name": "Cure Light Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 1d8 +1/level (max +5) points of damage.",
+        "healing": "1d8 +1/level (max +5)"
+      },
+      {
+        "name": "Bless",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "50 ft.",
+        "area": "The caster and all allies within a 50-ft. burst, centered on the caster",
+        "duration": "1 min./level",
+        "saving_throw": "None",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Allies gain +1 on attack rolls and saves against fear.",
+        "bonus": "+1 attack, +1 vs fear"
+      },
+      {
+        "name": "Divine Favor",
+        "school": "Evocation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 minute",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "+1 luck bonus on attack and damage rolls (+1 per three levels).",
+        "bonus": "+1 attack/damage (+1 per 3 levels)"
+      },
+      {
+        "name": "Sanctuary",
+        "school": "Abjuration",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "1 round/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "No",
+        "description": "Opponents can't attack you, and you can't attack."
+      },
+      {
+        "name": "Obscuring Mist",
+        "school": "Conjuration (Creation)",
+        "source": "Player's Handbook",
+        "domain": "Air",
+        "casting_time": "1 standard action",
+        "range": "20 ft.",
+        "effect": "Cloud spreads in 20-ft. radius from you, 20 ft. high",
+        "duration": "1 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Fog surrounds you."
+      }
+    ],
+    "level_2": [
+      {
+        "name": "Hold Person",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "target": "One humanoid creature",
+        "duration": "1 round/level (D); see text",
+        "saving_throw": "Will negates",
+        "spell_resistance": "Yes",
+        "description": "Paralyzes one humanoid for duration."
+      },
+      {
+        "name": "Silence",
+        "school": "Illusion (Glamer)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "area": "20-ft.-radius emanation centered on a creature, object, or point in space",
+        "duration": "1 round/level (D)",
+        "saving_throw": "Will negates; see text or none (object)",
+        "spell_resistance": "Yes; see text or no (object)",
+        "description": "Negates sound in 20-ft. radius."
+      },
+      {
+        "name": "Spiritual Weapon",
+        "school": "Evocation [Force]",
+        "source": "Player's Handbook",
+        "domain": "War",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "effect": "Magic weapon of force",
+        "duration": "1 round/level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "Magic weapon attacks on its own."
+      },
+      {
+        "name": "Death Knell",
+        "school": "Necromancy [Death, Evil]",
+        "source": "Player's Handbook",
+        "domain": "Death",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will negates",
+        "spell_resistance": "Yes",
+        "description": "Kills dying creature; you gain 1d8 temporary hp +2/HD."
+      }
+    ],
+    "level_3": [
+      {
+        "name": "Cure Serious Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 3d8 +1/level (max +15) points of damage.",
+        "healing": "3d8 +1/level (max +15)"
+      },
+      {
+        "name": "Remove Disease",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures all diseases affecting subject."
+      },
+      {
+        "name": "Animate Dead",
+        "school": "Necromancy [Evil]",
+        "source": "Player's Handbook",
+        "domain": "Death",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "One or more corpses touched",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Creates undead skeletons or zombies.",
+        "material": "Value 25 gp/HD of undead"
+      },
+      {
+        "name": "Magic Vestment",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "domain": "War",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Armor or shield touched",
+        "duration": "1 hour/level",
+        "saving_throw": "Will negates (harmless, object)",
+        "spell_resistance": "Yes (harmless, object)",
+        "description": "Armor or shield gains +1 enhancement per four levels.",
+        "bonus": "+1/4 levels (max +5)"
+      }
+    ],
+    "level_4": [
+      {
+        "name": "Cure Critical Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 4d8 +1/level (max +20) points of damage.",
+        "healing": "4d8 +1/level (max +20)"
+      },
+      {
+        "name": "Neutralize Poison",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature or object of up to 1 cu. ft./level touched",
+        "duration": "10 min./level or until discharged",
+        "saving_throw": "Will negates (harmless, object)",
+        "spell_resistance": "Yes (harmless, object)",
+        "description": "Immunizes subject against poison, detoxifies venom in or on subject."
+      },
+      {
+        "name": "Air Walk",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "domain": "Air",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature (Gargantuan or smaller) touched",
+        "duration": "10 min./level",
+        "saving_throw": "None",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Subject can walk on air as if solid ground."
+      },
+      {
+        "name": "Divine Power",
+        "school": "Evocation",
+        "source": "Player's Handbook",
+        "domain": "War",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 round/level",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "You gain attack bonus, +6 to Str, and 1 hp/level.",
+        "bonus": "+1/level attack (max +5), +6 Str, +1 hp/level"
+      }
+    ],
+    "level_5": [
+      {
+        "name": "Raise Dead",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 minute",
+        "range": "Touch",
+        "target": "Dead creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "None; see text",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Restores life to subject who died as long as one day/level ago.",
+        "material": "Diamonds worth 5,000 gp"
+      },
+      {
+        "name": "True Seeing",
+        "school": "Divination",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "1 min./level",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Lets subject see all things as they really are.",
+        "material": "Ointment costing 250 gp"
+      },
+      {
+        "name": "Slay Living",
+        "school": "Necromancy [Death]",
+        "source": "Player's Handbook",
+        "domain": "Death",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude partial",
+        "spell_resistance": "Yes",
+        "description": "Touch attack kills subject (10d6 damage).",
+        "damage": "10d6"
+      },
+      {
+        "name": "Flame Strike",
+        "school": "Evocation [Fire]",
+        "source": "Player's Handbook",
+        "domain": "War",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "effect": "Vertical column of divine fire (10-ft. radius, 40 ft. high)",
+        "duration": "Instantaneous",
+        "saving_throw": "Reflex half",
+        "spell_resistance": "Yes",
+        "description": "Smite foes with divine fire (1d6/level).",
+        "damage": "1d6/level (max 15d6)"
+      }
+    ],
+    "level_6": [
+      {
+        "name": "Heal",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 10 points/level of damage, all diseases and mental conditions.",
+        "healing": "10 points/level"
+      },
+      {
+        "name": "Harm",
+        "school": "Necromancy",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half; see text",
+        "spell_resistance": "Yes",
+        "description": "Deals 10 points/level damage to target.",
+        "damage": "10 points/level"
+      },
+      {
+        "name": "Create Undead",
+        "school": "Necromancy [Evil]",
+        "source": "Player's Handbook",
+        "domain": "Death",
+        "casting_time": "1 hour",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One corpse",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Creates ghouls, ghasts, mummies, or mohrgs.",
+        "material": "Value 50 gp/HD of undead"
+      },
+      {
+        "name": "Blade Barrier",
+        "school": "Evocation [Force]",
+        "source": "Player's Handbook",
+        "domain": "War",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "effect": "Wall of whirling blades up to 20 ft. long/level, or a ringed wall up to 10 ft. in radius/level; either form 20 ft. high",
+        "duration": "1 min./level (D)",
+        "saving_throw": "Reflex half or Reflex negates; see text",
+        "spell_resistance": "Yes",
+        "description": "Wall of blades deals 1d6/level damage.",
+        "damage": "1d6/level (max 15d6)"
+      }
+    ],
+    "level_7": [
+      {
+        "name": "Resurrection",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 minute",
+        "range": "Touch",
+        "target": "Dead creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "None; see text",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Restores life to subject who died as long as 10 years/level ago.",
+        "material": "Diamonds worth 10,000 gp",
+        "xp_cost": "1,000 XP"
+      },
+      {
+        "name": "Destruction",
+        "school": "Necromancy [Death]",
+        "source": "Player's Handbook",
+        "domain": "Death",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude partial",
+        "spell_resistance": "Yes",
+        "description": "Kills subject and destroys remains.",
+        "material": "Holy water and 500 gp worth of diamond dust"
+      },
+      {
+        "name": "Regenerate",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "domain": "Healing",
+        "casting_time": "3 full rounds",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).",
+        "healing": "4d8 +1/level (max +35)"
+      }
+    ],
+    "level_8": [
+      {
+        "name": "Mass Cure Critical Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature/level, no two of which can be more than 30 ft. apart",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless) or Will half",
+        "spell_resistance": "Yes (harmless) or Yes",
+        "description": "Cures 4d8 +1/level damage for many creatures.",
+        "healing": "4d8 +1/level (max +40)"
+      },
+      {
+        "name": "Holy Aura",
+        "school": "Abjuration [Good]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "20 ft.",
+        "targets": "One creature/level in a 20-ft.-radius burst centered on you",
+        "duration": "1 round/level (D)",
+        "saving_throw": "See text",
+        "spell_resistance": "Yes (harmless)",
+        "description": "+4 to AC, +4 resistance, SR 25 against evil spells.",
+        "bonus": "+4 AC, +4 resistance, SR 25 vs evil"
+      },
+      {
+        "name": "Create Greater Undead",
+        "school": "Necromancy [Evil]",
+        "source": "Player's Handbook",
+        "domain": "Death",
+        "casting_time": "1 hour",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One corpse",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Creates shadows, wraiths, spectres, or devourers.",
+        "material": "Value 100 gp/HD of undead"
+      },
+      {
+        "name": "Power Word Stun",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "domain": "War",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature with 150 hp or less",
+        "duration": "See text",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "Stuns creature with 150 hp or less."
+      }
+    ],
+    "level_9": [
+      {
+        "name": "Mass Heal",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "domain": "Healing",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One or more creatures, no two of which can be more than 60 ft. apart",
+        "duration": "Instantaneous",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "As heal, but with several subjects.",
+        "healing": "250 points divided as you choose"
+      },
+      {
+        "name": "Miracle",
+        "school": "Evocation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action or longer; see text",
+        "range": "See text",
+        "target": "See text",
+        "duration": "See text",
+        "saving_throw": "See text",
+        "spell_resistance": "See text",
+        "description": "Requests a deity's intercession.",
+        "xp_cost": "5,000 XP (or more)",
+        "notes": "Similar to wish but divine in nature."
+      },
+      {
+        "name": "Wail of the Banshee",
+        "school": "Necromancy [Death, Sonic]",
+        "source": "Player's Handbook",
+        "domain": "Death",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One living creature/level within a 40-ft.-radius spread",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude negates",
+        "spell_resistance": "Yes",
+        "description": "Kills one creature/level."
+      },
+      {
+        "name": "Power Word Kill",
+        "school": "Enchantment (Compulsion) [Death, Mind-Affecting]",
+        "source": "Player's Handbook",
+        "domain": "War",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One living creature with 100 hp or less",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "Kills one creature with 100 hp or less."
+      }
+    ]
+  },
+  "Druid": {
+    "level_0": [
+      {
+        "name": "Detect Magic",
+        "school": "Divination",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "60 ft.",
+        "area": "Cone-shaped emanation",
+        "duration": "Concentration, up to 1 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Detects spells and magic items within range."
+      },
+      {
+        "name": "Flare",
+        "school": "Evocation [Light]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude negates",
+        "spell_resistance": "Yes",
+        "description": "Dazzles one creature (-1 on attack rolls).",
+        "effect": "-1 attack"
+      },
+      {
+        "name": "Know Direction",
+        "school": "Divination",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "You discern north."
+      }
+    ],
+    "level_1": [
+      {
+        "name": "Entangle",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "area": "Plants in a 40-ft.-radius spread",
+        "duration": "1 min./level (D)",
+        "saving_throw": "Reflex partial",
+        "spell_resistance": "No",
+        "description": "Plants entangle everyone in 40-ft. radius."
+      },
+      {
+        "name": "Shillelagh",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "One touched nonmagical oak club or quarterstaff",
+        "duration": "1 min./level",
+        "saving_throw": "Will negates (object)",
+        "spell_resistance": "Yes (object)",
+        "description": "Cudgel or quarterstaff becomes +1 weapon (1d10 damage).",
+        "bonus": "+1 weapon, 1d10 base damage"
+      },
+      {
+        "name": "Faerie Fire",
+        "school": "Evocation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "area": "Creatures and objects within a 5-ft.-radius burst",
+        "duration": "1 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "Outlines subjects with light, canceling blur, concealment, etc."
+      },
+      {
+        "name": "Produce Flame",
+        "school": "Evocation [Fire]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "0 ft.",
+        "effect": "Flame in your palm",
+        "duration": "1 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "1d6 damage +1/level, touch or thrown.",
+        "damage": "1d6 +1/level (max +10)"
+      }
+    ],
+    "level_2": [
+      {
+        "name": "Barkskin",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "10 min./level",
+        "saving_throw": "None",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Grants +2 (or higher) enhancement to natural armor.",
+        "bonus": "+2 (or higher) natural armor"
+      },
+      {
+        "name": "Summon Swarm",
+        "school": "Conjuration (Summoning)",
+        "source": "Player's Handbook",
+        "casting_time": "1 round",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "effect": "One swarm of bats, rats, or spiders",
+        "duration": "1 round/level",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Summons swarm of bats, rats, or spiders."
+      },
+      {
+        "name": "Heat Metal",
+        "school": "Transmutation [Fire]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "Metal equipment of one creature or 25 lb. of metal/level",
+        "duration": "7 rounds",
+        "saving_throw": "Will negates (object)",
+        "spell_resistance": "Yes (object)",
+        "description": "Metal becomes red hot, dealing 2d4 fire damage/round."
+      }
+    ],
+    "level_3": [
+      {
+        "name": "Call Lightning",
+        "school": "Evocation [Electricity]",
+        "source": "Player's Handbook",
+        "casting_time": "1 round",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "effect": "One or more 30-ft.-long vertical lines of lightning",
+        "duration": "1 min./level",
+        "saving_throw": "Reflex half",
+        "spell_resistance": "Yes",
+        "description": "Calls down lightning bolts (3d6 per bolt) from sky.",
+        "damage": "3d6 per bolt"
+      },
+      {
+        "name": "Poison",
+        "school": "Necromancy",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "Instantaneous; see text",
+        "saving_throw": "Fortitude negates",
+        "spell_resistance": "Yes",
+        "description": "Touch deals 1d10 Con damage, repeats in 1 min."
+      },
+      {
+        "name": "Quench",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "target": "One 20-ft. cube/level (S)",
+        "duration": "Instantaneous",
+        "saving_throw": "Will negates (object) or none",
+        "spell_resistance": "Yes (object)",
+        "description": "Extinguishes nonmagical fires or one magic fire spell."
+      }
+    ],
+    "level_4": [
+      {
+        "name": "Ice Storm",
+        "school": "Evocation [Cold]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "area": "Cylinder (20-ft. radius, 40 ft. high)",
+        "duration": "1 round/level",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "Hail deals 5d6 damage in cylinder 40 ft. tall.",
+        "damage": "5d6 bludgeoning and cold"
+      },
+      {
+        "name": "Reincarnate",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "10 minutes",
+        "range": "Touch",
+        "target": "Dead creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "None; see text",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Brings dead subject back in a random body.",
+        "material": "Rare oils and unguents worth 1,000 gp"
+      },
+      {
+        "name": "Rusting Grasp",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "One nonmagical ferrous object or one ferrous creature",
+        "duration": "See text",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Your touch corrodes iron and alloys."
+      }
+    ],
+    "level_5": [
+      {
+        "name": "Animal Growth",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "target": "Up to one animal (Gargantuan or smaller) per two levels, no two of which can be more than 30 ft. apart",
+        "duration": "1 min./level",
+        "saving_throw": "Fortitude negates",
+        "spell_resistance": "Yes",
+        "description": "One animal/two levels doubles in size.",
+        "effect": "Doubles size (increases stats)"
+      },
+      {
+        "name": "Wall of Thorns",
+        "school": "Conjuration (Creation)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "effect": "Wall of thorny brush, up to one 10-ft. cube/level (S)",
+        "duration": "10 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Thorns damage anyone who tries to pass."
+      },
+      {
+        "name": "Transmute Rock to Mud",
+        "school": "Transmutation [Earth]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "area": "Up to two 10-ft. cubes/level (S)",
+        "duration": "Permanent; see text",
+        "saving_throw": "See text",
+        "spell_resistance": "No",
+        "description": "Transforms two 10-ft. cubes per level."
+      }
+    ],
+    "level_6": [
+      {
+        "name": "Liveoak",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "10 minutes",
+        "range": "Touch",
+        "target": "Tree touched",
+        "duration": "One day/level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Oak becomes treant guardian."
+      },
+      {
+        "name": "Transport via Plants",
+        "school": "Conjuration (Teleportation)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal and touch",
+        "target": "You and touched objects or other touched willing creatures",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Move instantly from one plant to another of the same kind."
+      },
+      {
+        "name": "Find the Path",
+        "school": "Divination",
+        "source": "Player's Handbook",
+        "casting_time": "3 rounds",
+        "range": "Personal or touch",
+        "target": "You or creature touched",
+        "duration": "10 min./level",
+        "saving_throw": "None or Will negates (harmless)",
+        "spell_resistance": "No or Yes (harmless)",
+        "description": "Shows most direct way to a location."
+      }
+    ],
+    "level_7": [
+      {
+        "name": "Changestaff",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 round",
+        "range": "Touch",
+        "target": "Your touched staff",
+        "duration": "1 hour/level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Staff becomes a treant on command."
+      },
+      {
+        "name": "Fire Storm",
+        "school": "Evocation [Fire]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "area": "Two 10-ft. cubes per level (S)",
+        "duration": "Instantaneous",
+        "saving_throw": "Reflex half",
+        "spell_resistance": "Yes",
+        "description": "Deals 1d6/level fire damage.",
+        "damage": "1d6/level (max 20d6)"
+      },
+      {
+        "name": "Creeping Doom",
+        "school": "Conjuration (Summoning)",
+        "source": "Player's Handbook",
+        "casting_time": "1 round",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "effect": "One swarm of centipedes/level",
+        "duration": "1 round/level",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Swarms of centipedes attack at your command."
+      }
+    ],
+    "level_8": [
+      {
+        "name": "Animal Shapes",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "Up to one willing creature per level, all within 30 ft. of each other",
+        "duration": "1 hour/level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Transforms multiple creatures into animals."
+      },
+      {
+        "name": "Whirlwind",
+        "school": "Evocation [Air]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "effect": "Cyclone 10 ft. wide at base, 30 ft. wide at top, 30 ft. tall",
+        "duration": "1 round/level (D)",
+        "saving_throw": "Reflex negates",
+        "spell_resistance": "Yes",
+        "description": "Cyclone deals damage and can pick up creatures."
+      },
+      {
+        "name": "Finger of Death",
+        "school": "Necromancy [Death]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One living creature",
+        "duration": "Instantaneous",
+        "saving_throw": "Fortitude partial",
+        "spell_resistance": "Yes",
+        "description": "Kills one subject with 10d6 +1/level damage.",
+        "damage": "10d6 +1/level"
+      }
+    ],
+    "level_9": [
+      {
+        "name": "Shapechange",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "10 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Transforms you into any creature, and change forms once per round.",
+        "notes": "Grants abilities of assumed forms."
+      },
+      {
+        "name": "Storm of Vengeance",
+        "school": "Conjuration (Summoning)",
+        "source": "Player's Handbook",
+        "casting_time": "1 round",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "area": "360-ft.-radius storm cloud",
+        "duration": "Concentration (maximum 10 rounds) (D)",
+        "saving_throw": "See text",
+        "spell_resistance": "Yes",
+        "description": "Storm rains acid, lightning, and hail."
+      },
+      {
+        "name": "Nature's Avatar",
+        "school": "Transmutation",
+        "source": "Spell Compendium",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 round/level",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Gain plant traits, +10 enhancement to Str and Con, DR 10/magic.",
+        "bonus": "+10 Str/Con, DR 10/magic"
+      }
+    ]
+  },
+  "Bard": {
+    "level_0": [
+      {
+        "name": "Dancing Lights",
+        "school": "Evocation [Light]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "effect": "Up to four lights",
+        "duration": "1 minute (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Creates torches or other lights that you can move."
+      },
+      {
+        "name": "Ghost Sound",
+        "school": "Illusion (Figment)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "effect": "Figment sounds",
+        "duration": "1 round/level (D)",
+        "saving_throw": "Will disbelief (if interacted with)",
+        "spell_resistance": "No",
+        "description": "Creates minor sounds or music."
+      },
+      {
+        "name": "Mending",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "10 ft.",
+        "target": "One object of up to 1 lb.",
+        "duration": "Instantaneous",
+        "saving_throw": "Will negates (harmless, object)",
+        "spell_resistance": "Yes (harmless, object)",
+        "description": "Makes minor repairs on an object."
+      }
+    ],
+    "level_1": [
+      {
+        "name": "Cure Light Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 1d8 +1/level (max +5) points of damage.",
+        "healing": "1d8 +1/level (max +5)"
+      },
+      {
+        "name": "Charm Person",
+        "school": "Enchantment (Charm) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One humanoid creature",
+        "duration": "1 hour/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "Yes",
+        "description": "Makes one person your friend."
+      },
+      {
+        "name": "Grease",
+        "school": "Conjuration (Creation)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One object or 10-ft. square",
+        "duration": "1 round/level (D)",
+        "saving_throw": "See text",
+        "spell_resistance": "No",
+        "description": "Makes 10-ft. square or one object slippery."
+      },
+      {
+        "name": "Hideous Laughter",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One humanoid creature",
+        "duration": "1 round/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "Yes",
+        "description": "Subject loses actions for 1 round/level."
+      }
+    ],
+    "level_2": [
+      {
+        "name": "Invisibility",
+        "school": "Illusion (Glamer)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal or touch",
+        "target": "You or a creature or object weighing no more than 100 lb./level",
+        "duration": "1 min./level (D)",
+        "saving_throw": "Will negates (harmless) or Will negates (harmless, object)",
+        "spell_resistance": "Yes (harmless) or Yes (harmless, object)",
+        "description": "Subject becomes invisible for duration or until it attacks."
+      },
+      {
+        "name": "Suggestion",
+        "school": "Enchantment (Compulsion) [Language-Dependent, Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One living creature",
+        "duration": "1 hour/level or until completed",
+        "saving_throw": "Will negates",
+        "spell_resistance": "Yes",
+        "description": "Compels subject to follow stated course of action."
+      },
+      {
+        "name": "Alter Self",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "10 min./level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Assume form of a similar creature."
+      }
+    ],
+    "level_3": [
+      {
+        "name": "Cure Moderate Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 2d8 +1/level (max +10) points of damage.",
+        "healing": "2d8 +1/level (max +10)"
+      },
+      {
+        "name": "Haste",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature/level, no two of which can be more than 30 ft. apart",
+        "duration": "1 round/level",
+        "saving_throw": "Fortitude negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Subjects move and act more quickly (+1 attack, +1 AC, +30 ft speed).",
+        "bonus": "+1 attack, +1 AC, +30 ft speed"
+      },
+      {
+        "name": "Displacement",
+        "school": "Illusion (Glamer)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "1 round/level (D)",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Attacks have 50% miss chance.",
+        "bonus": "50% miss chance"
+      }
+    ],
+    "level_4": [
+      {
+        "name": "Cure Critical Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 4d8 +1/level (max +20) points of damage.",
+        "healing": "4d8 +1/level (max +20)"
+      },
+      {
+        "name": "Freedom of Movement",
+        "school": "Abjuration",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal or touch",
+        "target": "You or creature touched",
+        "duration": "10 min./level",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Subject moves normally despite impediments."
+      },
+      {
+        "name": "Dimension Door",
+        "school": "Conjuration (Teleportation)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "target": "You and touched objects or other touched willing creatures",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Teleports you short distance."
+      }
+    ],
+    "level_5": [
+      {
+        "name": "Cure Light Wounds, Mass",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature/level, no two of which can be more than 30 ft. apart",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless) or Will half",
+        "spell_resistance": "Yes (harmless) or Yes",
+        "description": "Cures 1d8 +1/level damage for many creatures.",
+        "healing": "1d8 +1/level (max +25)"
+      },
+      {
+        "name": "Greater Heroism",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "1 min./level",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.",
+        "bonus": "+4 attack, saves, skills; immunity to fear; +4 temp hp/level"
+      },
+      {
+        "name": "Mind Fog",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "area": "Fog spreads in 20-ft. radius, 20 ft. high",
+        "duration": "30 minutes and 2d6 rounds; see text",
+        "saving_throw": "Will negates",
+        "spell_resistance": "Yes",
+        "description": "-10 penalty to Wis checks and Will saves."
+      }
+    ],
+    "level_6": [
+      {
+        "name": "Cure Moderate Wounds, Mass",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature/level, no two of which can be more than 30 ft. apart",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless) or Will half",
+        "spell_resistance": "Yes (harmless) or Yes",
+        "description": "Cures 2d8 +1/level damage for many creatures.",
+        "healing": "2d8 +1/level (max +30)"
+      },
+      {
+        "name": "Irresistible Dance",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "1d4+1 rounds",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "Forces subject to dance.",
+        "notes": "Subject can't take any other actions while dancing."
+      },
+      {
+        "name": "Otto's Irresistible Dance",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "1d4+1 rounds",
+        "saving_throw": "None",
+        "spell_resistance": "Yes",
+        "description": "Forces subject to dance.",
+        "notes": "Subject can't take any other actions while dancing."
+      }
+    ]
+  },
+  "Paladin": {
+    "level_1": [
+      {
+        "name": "Cure Light Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 1d8 +1/level (max +5) points of damage.",
+        "healing": "1d8 +1/level (max +5)"
+      },
+      {
+        "name": "Bless Weapon",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Weapon touched",
+        "duration": "1 min./level",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Weapon strikes true against evil foes.",
+        "bonus": "+1 weapon, bypass DR evil"
+      },
+      {
+        "name": "Divine Sacrifice",
+        "school": "Evocation",
+        "source": "Complete Divine",
+        "casting_time": "1 swift action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Sacrifice hit points to deal extra damage on next attack.",
+        "damage": "1d6 per 5 hp sacrificed (max 5d6)"
+      }
+    ],
+    "level_2": [
+      {
+        "name": "Remove Paralysis",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "Up to four creatures, no two of which can be more than 30 ft. apart",
+        "duration": "Instantaneous",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Frees one or more creatures from paralysis or slow effect."
+      },
+      {
+        "name": "Zeal",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Complete Divine",
+        "casting_time": "1 swift action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 round",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Gain +4 on attack rolls, +2 on damage rolls for 1 round.",
+        "bonus": "+4 attack, +2 damage"
+      },
+      {
+        "name": "Shield Other",
+        "school": "Abjuration",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature",
+        "duration": "1 hour/level (D)",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "You take half of subject's damage."
+      }
+    ],
+    "level_3": [
+      {
+        "name": "Cure Moderate Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 2d8 +1/level (max +10) points of damage.",
+        "healing": "2d8 +1/level (max +10)"
+      },
+      {
+        "name": "Dispel Magic",
+        "school": "Abjuration",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "target": "One spellcaster, creature, or object",
+        "duration": "Instantaneous",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Cancels magical spells and effects."
+      },
+      {
+        "name": "Magic Circle Against Evil",
+        "school": "Abjuration [Good]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "area": "10-ft.-radius emanation from touched creature",
+        "duration": "10 min./level",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "No; see text",
+        "description": "As protection from evil, but 10-ft. radius and 10 min./level."
+      }
+    ],
+    "level_4": [
+      {
+        "name": "Cure Serious Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 3d8 +1/level (max +15) points of damage.",
+        "healing": "3d8 +1/level (max +15)"
+      },
+      {
+        "name": "Holy Sword",
+        "school": "Evocation [Good]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Melee weapon touched",
+        "duration": "1 round/level",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Weapon becomes +5, deals +2d6 damage against evil.",
+        "bonus": "+5 weapon, +2d6 vs evil"
+      },
+      {
+        "name": "Zealous Fury",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Complete Champion",
+        "casting_time": "1 swift action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 round",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Gain extra attack at highest bonus when full attacking.",
+        "bonus": "Extra attack at full bonus"
+      }
+    ]
+  },
+  "Ranger": {
+    "level_1": [
+      {
+        "name": "Longstrider",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 hour/level (D)",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Your base speed increases by 10 ft.",
+        "bonus": "+10 ft. speed"
+      },
+      {
+        "name": "Resist Energy",
+        "school": "Abjuration",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "10 min./level",
+        "saving_throw": "Fortitude negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Ignores first 10 (or more) points of damage per attack from specified energy type.",
+        "bonus": "Resist 10 (or more) energy damage"
+      },
+      {
+        "name": "Arrow Mind",
+        "school": "Divination",
+        "source": "Complete Adventurer",
+        "casting_time": "1 immediate action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 round/level",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Don't provoke attacks of opportunity when firing ranged weapons."
+      }
+    ],
+    "level_2": [
+      {
+        "name": "Barkskin",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "10 min./level",
+        "saving_throw": "None",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Grants +2 (or higher) enhancement to natural armor.",
+        "bonus": "+2 (or higher) natural armor"
+      },
+      {
+        "name": "Cat's Grace",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "1 min./level",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Grants +4 enhancement to Dexterity.",
+        "bonus": "+4 Dexterity"
+      },
+      {
+        "name": "Hunter's Mercy",
+        "school": "Divination",
+        "source": "Spell Compendium",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One creature",
+        "duration": "1 round or until discharged",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Next ranged attack is an automatic critical threat."
+      }
+    ],
+    "level_3": [
+      {
+        "name": "Cure Moderate Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 2d8 +1/level (max +10) points of damage.",
+        "healing": "2d8 +1/level (max +10)"
+      },
+      {
+        "name": "Neutralize Poison",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature or object of up to 1 cu. ft./level touched",
+        "duration": "10 min./level or until discharged",
+        "saving_throw": "Will negates (harmless, object)",
+        "spell_resistance": "Yes (harmless, object)",
+        "description": "Immunizes subject against poison, detoxifies venom in or on subject."
+      },
+      {
+        "name": "Find the Gap",
+        "school": "Divination",
+        "source": "Spell Compendium",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 round/level",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Your attacks ignore armor and natural armor.",
+        "bonus": "Ignore AC from armor and natural armor"
+      }
+    ],
+    "level_4": [
+      {
+        "name": "Cure Serious Wounds",
+        "school": "Conjuration (Healing)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Instantaneous",
+        "saving_throw": "Will half (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Cures 3d8 +1/level (max +15) points of damage.",
+        "healing": "3d8 +1/level (max +15)"
+      },
+      {
+        "name": "Freedom of Movement",
+        "school": "Abjuration",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal or touch",
+        "target": "You or creature touched",
+        "duration": "10 min./level",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "Yes (harmless)",
+        "description": "Subject moves normally despite impediments."
+      },
+      {
+        "name": "Hunter's Eye",
+        "school": "Divination",
+        "source": "Player's Handbook II",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 minute/level",
+        "saving_throw": "None",
+        "spell_resistance": "No",
+        "description": "Gain +1d6 sneak attack damage per 3 caster levels.",
+        "bonus": "+1d6 sneak attack per 3 levels"
+      }
+    ]
+  },
+  "Assassin": {
+    "level_1": [
+      {
+        "name": "Disguise Self",
+        "school": "Illusion (Glamer)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "10 min./level (D)",
+        "description": "Changes your appearance."
+      },
+      {
+        "name": "Silent Image",
+        "school": "Illusion (Figment)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Long (400 ft. + 40 ft./level)",
+        "effect": "Visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)",
+        "duration": "Concentration",
+        "description": "Creates minor illusion of your design."
+      },
+      {
+        "name": "Ghost Sound",
+        "school": "Illusion (Figment)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "effect": "Figment sounds",
+        "duration": "1 round/level (D)",
+        "description": "Creates minor sounds or music."
+      }
+    ],
+    "level_2": [
+      {
+        "name": "Invisibility",
+        "school": "Illusion (Glamer)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal or touch",
+        "target": "You or a creature or object weighing no more than 100 lb./level",
+        "duration": "1 min./level (D)",
+        "description": "Subject becomes invisible for duration or until it attacks."
+      },
+      {
+        "name": "Spider Climb",
+        "school": "Transmutation",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "10 min./level",
+        "description": "Grants ability to walk on walls and ceilings."
+      }
+    ],
+    "level_3": [
+      {
+        "name": "Nondetection",
+        "school": "Abjuration",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature or object touched",
+        "duration": "1 hour/level",
+        "description": "Hides subject from divination, scrying."
+      },
+      {
+        "name": "Deep Slumber",
+        "school": "Enchantment (Compulsion) [Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One living creature",
+        "duration": "1 min./level",
+        "description": "Puts 10 HD of creatures into magical slumber."
+      }
+    ],
+    "level_4": [
+      {
+        "name": "Greater Invisibility",
+        "school": "Illusion (Glamer)",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Personal or touch",
+        "target": "You or creature or object weighing no more than 100 lb./level",
+        "duration": "1 round/level (D)",
+        "description": "As invisibility, but subject can attack and stay invisible."
+      },
+      {
+        "name": "Phantasmal Killer",
+        "school": "Illusion (Phantasm) [Fear, Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "target": "One living creature",
+        "duration": "Instantaneous",
+        "description": "Fearsome illusion kills subject or deals 3d6 damage."
+      }
+    ]
+  },
+  "Blackguard": {
+    "level_1": [
+      {
+        "name": "Cause Fear",
+        "school": "Necromancy [Fear, Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Close (25 ft. + 5 ft./2 levels)",
+        "target": "One living creature with 5 or fewer HD",
+        "duration": "1d4 rounds or 1 round; see text",
+        "description": "Makes a creature flee unless it succeeds on a Will save."
+      },
+      {
+        "name": "Doom",
+        "school": "Necromancy [Fear, Mind-Affecting]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "target": "One living creature",
+        "duration": "1 min./level",
+        "description": "Subject takes -2 on attack rolls, damage rolls, saves, and checks."
+      },
+      {
+        "name": "Curse Water",
+        "school": "Necromancy [Evil]",
+        "source": "Player's Handbook",
+        "casting_time": "1 minute",
+        "range": "Touch",
+        "target": "Flask of water touched",
+        "duration": "Instantaneous",
+        "description": "Makes unholy water.",
+        "material": "5 lbs. of powdered silver (25 gp)"
+      }
+    ],
+    "level_2": [
+      {
+        "name": "Darkness",
+        "school": "Evocation [Darkness]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Object touched",
+        "duration": "10 min./level (D)",
+        "description": "20-ft. radius of supernatural shadow."
+      },
+      {
+        "name": "Death Knell",
+        "school": "Necromancy [Death, Evil]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "Instantaneous",
+        "description": "Kills dying creature; you gain 1d8 temporary hp +2/HD."
+      }
+    ],
+    "level_3": [
+      {
+        "name": "Contagion",
+        "school": "Necromancy [Evil]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "Instantaneous",
+        "description": "Infects subject with chosen disease."
+      },
+      {
+        "name": "Bestow Curse",
+        "school": "Necromancy",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Creature touched",
+        "duration": "Permanent",
+        "description": "-6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action."
+      }
+    ],
+    "level_4": [
+      {
+        "name": "Poison",
+        "school": "Necromancy",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Touch",
+        "target": "Living creature touched",
+        "duration": "Instantaneous; see text",
+        "description": "Touch deals 1d10 Con damage, repeats in 1 min."
+      },
+      {
+        "name": "Unholy Blight",
+        "school": "Evocation [Evil]",
+        "source": "Player's Handbook",
+        "casting_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "area": "20-ft.-radius spread",
+        "duration": "Instantaneous (1d4 rounds); see text",
+        "description": "Damages and sickens good creatures."
+      }
+    ]
+  },
+  "Psion": {
+    "level_1": [
+      {
+        "name": "Mind Thrust",
+        "discipline": "Telepathy",
+        "source": "Expanded Psionics Handbook",
+        "manifestation_time": "1 standard action",
+        "range": "Medium (100 ft. + 10 ft./level)",
+        "target": "One creature",
+        "duration": "Instantaneous",
+        "description": "Deals 1d10 damage per power point spent."
+      },
+      {
+        "name": "Force Screen",
+        "discipline": "Psychokinesis",
+        "source": "Expanded Psionics Handbook",
+        "manifestation_time": "1 standard action",
+        "range": "Personal",
+        "target": "You",
+        "duration": "1 hour/level or until discharged",
+        "description": "Invisible shield grants +4 shield bonus to AC.",
+        "bonus": "+4 shield AC"
+      }
+    ]
+  }
+}

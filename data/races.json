@@ -1,0 +1,547 @@
+[
+    {
+        "name": "Human",
+        "description": "Versatile and adaptable, humans excel in any profession.",
+        "ability_modifiers": {},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Any",
+        "languages": ["Common"],
+        "racial_traits": [
+            {"name": "Bonus Feat", "description": "Gain one extra feat at 1st level"},
+            {"name": "Skilled", "description": "+1 skill point per level"}
+        ],
+        "subraces": {
+            "Calishite": {
+                "description": "Dark-skinned humans from southern deserts.",
+                "ability_modifiers": {"Dexterity": 1, "Constitution": -1},
+                "racial_traits": [
+                    {"name": "Desert Adaptation", "description": "+2 on saves against extreme heat"}
+                ]
+            },
+            "Chondathan": {
+                "description": "Typical humans of the Heartlands.",
+                "ability_modifiers": {"Charisma": 1, "Wisdom": -1},
+                "racial_traits": [
+                    {"name": "Cosmopolitan", "description": "+2 on Diplomacy checks"}
+                ]
+            },
+            "Illuskan": {
+                "description": "Fair-haired northern humans.",
+                "ability_modifiers": {"Strength": 1, "Intelligence": -1},
+                "racial_traits": [
+                    {"name": "Seafarer", "description": "+2 on Profession (sailor) checks"}
+                ]
+            }
+        }
+    },
+    {
+        "name": "Elf",
+        "description": "Graceful and magical, attuned to nature and arcane arts.",
+        "ability_modifiers": {"Dexterity": 2, "Constitution": -2},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Wizard",
+        "languages": ["Common", "Elven"],
+        "racial_traits": [
+            {"name": "Immunity to Sleep", "description": "Immune to sleep spells and effects"},
+            {"name": "Low-Light Vision", "description": "See twice as far as humans in dim light"},
+            {"name": "Keen Senses", "description": "+2 bonus on Listen, Search, and Spot checks"},
+            {"name": "Elven Weapon Proficiency", "description": "Proficient with longsword, rapier, longbow, and shortbow"}
+        ],
+        "subraces": {
+            "High Elf": {
+                "description": "Arcane scholars with keen intellect.",
+                "ability_modifiers": {"Intelligence": 1},
+                "racial_traits": [
+                    {"name": "Arcane Affinity", "description": "+2 bonus on Spellcraft checks"}
+                ]
+            },
+            "Wood Elf": {
+                "description": "Forest dwellers with unmatched agility.",
+                "ability_modifiers": {"Wisdom": 1},
+                "racial_traits": [
+                    {"name": "Camouflage", "description": "+4 bonus on Hide checks in natural terrain"}
+                ]
+            },
+            "Gray Elf": {
+                "description": "Pale and reclusive scholars.",
+                "ability_modifiers": {"Intelligence": 2, "Strength": -2},
+                "racial_traits": [
+                    {"name": "Arcane Focus", "description": "Bonus 1st-level wizard spell slot"}
+                ]
+            },
+            "Wild Elf": {
+                "description": "Primitive and untamed.",
+                "ability_modifiers": {"Dexterity": 1, "Intelligence": -1},
+                "racial_traits": [
+                    {"name": "Primitive Instincts", "description": "+2 on Survival checks"}
+                ]
+            },
+            "Drow": {
+                "description": "Dark-skinned Underdark elves.",
+                "ability_modifiers": {"Dexterity": 1, "Constitution": -1, "Charisma": 1},
+                "racial_traits": [
+                    {"name": "Darkvision", "description": "See 120 feet in darkness"},
+                    {"name": "Light Blindness", "description": "Dazzled in bright light"}
+                ]
+            }
+        }
+    },
+    {
+        "name": "Dwarf",
+        "description": "Sturdy masters of stone and metal.",
+        "ability_modifiers": {"Constitution": 2, "Charisma": -2},
+        "size": "Medium",
+        "speed": 20,
+        "favored_class": "Fighter",
+        "languages": ["Common", "Dwarven"],
+        "racial_traits": [
+            {"name": "Darkvision", "description": "See 60 feet in darkness"},
+            {"name": "Stability", "description": "+4 bonus against bull rush and trip attempts"},
+            {"name": "Stonecunning", "description": "+2 bonus on Search checks related to stonework"},
+            {"name": "Poison Resistance", "description": "+2 bonus on saves against poison"}
+        ],
+        "subraces": {
+            "Hill Dwarf": {
+                "description": "Wise and resilient.",
+                "ability_modifiers": {"Wisdom": 1},
+                "racial_traits": [
+                    {"name": "Magic Resistance", "description": "+2 bonus on saves against spells"}
+                ]
+            },
+            "Mountain Dwarf": {
+                "description": "Strong and armored.",
+                "ability_modifiers": {"Strength": 1},
+                "racial_traits": [
+                    {"name": "Armor Proficiency", "description": "Proficient with light and medium armor"}
+                ]
+            },
+            "Gray Dwarf (Duergar)": {
+                "description": "Underdark-dwelling dwarves.",
+                "ability_modifiers": {"Constitution": 1, "Charisma": -1},
+                "racial_traits": [
+                    {"name": "Superior Darkvision", "description": "See 120 feet in darkness"},
+                    {"name": "Spell Resistance", "description": "SR equal to 11 + class levels"}
+                ]
+            }
+        }
+    },
+    {
+        "name": "Gnome",
+        "description": "Small illusionists and tinkerers.",
+        "ability_modifiers": {"Constitution": 2, "Strength": -2},
+        "size": "Small",
+        "speed": 20,
+        "favored_class": "Bard",
+        "languages": ["Common", "Gnome"],
+        "racial_traits": [
+            {"name": "Low-Light Vision", "description": "See twice as far as humans in dim light"},
+            {"name": "Gnome Magic", "description": "Can cast dancing lights, ghost sound, and prestidigitation 1/day"},
+            {"name": "Illusion Resistance", "description": "+2 bonus on saves against illusions"}
+        ],
+        "subraces": {
+            "Forest Gnome": {
+                "description": "Nature-connected tricksters.",
+                "ability_modifiers": {"Dexterity": 1},
+                "racial_traits": [
+                    {"name": "Speak with Animals", "description": "Can speak with burrowing mammals 1/day"}
+                ]
+            },
+            "Rock Gnome": {
+                "description": "Typical gnomes with tinkering skills.",
+                "ability_modifiers": {"Intelligence": 1},
+                "racial_traits": [
+                    {"name": "Artificer's Lore", "description": "+2 bonus on Craft (alchemy) checks"}
+                ]
+            },
+            "Svirfneblin (Deep Gnome)": {
+                "description": "Underdark-dwelling gnomes.",
+                "ability_modifiers": {"Dexterity": 1, "Charisma": -1},
+                "racial_traits": [
+                    {"name": "Darkvision", "description": "See 120 feet in darkness"},
+                    {"name": "Stone Camouflage", "description": "+4 bonus on Hide checks underground"}
+                ]
+            }
+        }
+    },
+    {
+        "name": "Half-Elf",
+        "description": "Diplomatic bridge between worlds.",
+        "ability_modifiers": {},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Any",
+        "languages": ["Common", "Elven"],
+        "racial_traits": [
+            {"name": "Low-Light Vision", "description": "See twice as far as humans in dim light"},
+            {"name": "Adaptability", "description": "+1 skill point per level"},
+            {"name": "Diplomatic", "description": "+2 bonus on Diplomacy and Gather Information checks"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Half-Orc",
+        "description": "Powerful survivors with orcish blood.",
+        "ability_modifiers": {"Strength": 2, "Intelligence": -2, "Charisma": -2},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Barbarian",
+        "languages": ["Common", "Orc"],
+        "racial_traits": [
+            {"name": "Darkvision", "description": "See 60 feet in darkness"},
+            {"name": "Orc Blood", "description": "Count as both orc and human for effects"},
+            {"name": "Intimidating", "description": "+2 bonus on Intimidate checks"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Halfling",
+        "description": "Nimble and lucky smallfolk.",
+        "ability_modifiers": {"Dexterity": 2, "Strength": -2},
+        "size": "Small",
+        "speed": 20,
+        "favored_class": "Rogue",
+        "languages": ["Common", "Halfling"],
+        "racial_traits": [
+            {"name": "Lucky", "description": "+1 bonus on all saving throws"},
+            {"name": "Fearless", "description": "+2 bonus on saves against fear"},
+            {"name": "Nimble", "description": "+1 bonus on attack rolls with thrown weapons"}
+        ],
+        "subraces": {
+            "Lightfoot": {
+                "description": "Typical halflings with stealth skills.",
+                "ability_modifiers": {"Charisma": 1},
+                "racial_traits": [
+                    {"name": "Naturally Stealthy", "description": "+2 bonus on Hide checks"}
+                ]
+            },
+            "Tallfellow": {
+                "description": "More attuned to nature.",
+                "ability_modifiers": {"Wisdom": 1},
+                "racial_traits": [
+                    {"name": "Tree Climber", "description": "+4 bonus on Climb checks in forests"}
+                ]
+            },
+            "Ghostwise": {
+                "description": "Reclusive halflings with mental powers.",
+                "ability_modifiers": {"Wisdom": 1},
+                "racial_traits": [
+                    {"name": "Silent Speech", "description": "Can communicate telepathically with nearby creatures"}
+                ]
+            }
+        }
+    },
+    {
+        "name": "Aasimar",
+        "description": "Celestial-blooded beings of virtue.",
+        "ability_modifiers": {"Wisdom": 2, "Charisma": 2},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Paladin",
+        "languages": ["Common", "Celestial"],
+        "racial_traits": [
+            {"name": "Darkvision", "description": "See 60 feet in darkness"},
+            {"name": "Celestial Resistance", "description": "+2 bonus on saves against acid, cold, and electricity"},
+            {"name": "Daylight", "description": "Can cast daylight 1/day"}
+        ],
+        "subraces": {
+            "Lesser Aasimar": {
+                "description": "Diluted celestial heritage.",
+                "ability_modifiers": {"Charisma": 1},
+                "racial_traits": []
+            }
+        }
+    },
+    {
+        "name": "Tiefling",
+        "description": "Fiendish-blooded beings of darkness.",
+        "ability_modifiers": {"Intelligence": 2, "Charisma": -2},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Rogue",
+        "languages": ["Common", "Infernal"],
+        "racial_traits": [
+            {"name": "Darkvision", "description": "See 60 feet in darkness"},
+            {"name": "Fiendish Resistance", "description": "+2 bonus on saves against fire, cold, and electricity"},
+            {"name": "Darkness", "description": "Can cast darkness 1/day"}
+        ],
+        "subraces": {
+            "Lesser Tiefling": {
+                "description": "Diluted fiendish heritage.",
+                "ability_modifiers": {"Intelligence": 1, "Charisma": -1},
+                "racial_traits": []
+            }
+        }
+    },
+    {
+        "name": "Genasi",
+        "description": "Planetouched beings with elemental heritage.",
+        "ability_modifiers": {},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Sorcerer",
+        "languages": ["Common"],
+        "racial_traits": [
+            {"name": "Elemental Affinity", "description": "Resistance 5 to associated element"}
+        ],
+        "subraces": {
+            "Air Genasi": {
+                "description": "Wind-touched with lightning affinity.",
+                "ability_modifiers": {"Dexterity": 2, "Constitution": -2},
+                "racial_traits": [
+                    {"name": "Electricity Resistance", "description": "Resistance 5 to electricity"}
+                ]
+            },
+            "Earth Genasi": {
+                "description": "Stone-skinned and durable.",
+                "ability_modifiers": {"Constitution": 2, "Dexterity": -2},
+                "racial_traits": [
+                    {"name": "Acid Resistance", "description": "Resistance 5 to acid"}
+                ]
+            },
+            "Fire Genasi": {
+                "description": "Flame-haired with fiery temper.",
+                "ability_modifiers": {"Intelligence": 2, "Wisdom": -2},
+                "racial_traits": [
+                    {"name": "Fire Resistance", "description": "Resistance 5 to fire"}
+                ]
+            },
+            "Water Genasi": {
+                "description": "Fluid-moving with aquatic affinity.",
+                "ability_modifiers": {"Wisdom": 2, "Intelligence": -2},
+                "racial_traits": [
+                    {"name": "Cold Resistance", "description": "Resistance 5 to cold"}
+                ]
+            }
+        }
+    },
+    {
+        "name": "Goliath",
+        "description": "Mountain-dwelling giants of human descent.",
+        "ability_modifiers": {"Strength": 2, "Constitution": 2, "Charisma": -2},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Barbarian",
+        "languages": ["Common", "Giant"],
+        "racial_traits": [
+            {"name": "Mountain Movement", "description": "No penalty on movement or attacks in mountainous terrain"},
+            {"name": "Powerful Build", "description": "Count as one size larger for certain combat situations"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Kobold",
+        "description": "Small reptilian trap-makers.",
+        "ability_modifiers": {"Dexterity": 2, "Strength": -2},
+        "size": "Small",
+        "speed": 30,
+        "favored_class": "Sorcerer",
+        "languages": ["Common", "Draconic"],
+        "racial_traits": [
+            {"name": "Darkvision", "description": "See 60 feet in darkness"},
+            {"name": "Light Sensitivity", "description": "-1 penalty on attack rolls in bright light"},
+            {"name": "Crafty", "description": "+2 bonus on Craft (trapmaking) checks"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Orc",
+        "description": "Brutish warriors with poor temperaments.",
+        "ability_modifiers": {"Strength": 4, "Intelligence": -2, "Charisma": -2},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Barbarian",
+        "languages": ["Common", "Orc"],
+        "racial_traits": [
+            {"name": "Darkvision", "description": "See 60 feet in darkness"},
+            {"name": "Light Sensitivity", "description": "-1 penalty on attack rolls in bright light"},
+            {"name": "Ferocity", "description": "Can fight while disabled without penalty"}
+        ],
+        "subraces": {
+            "Deep Orc": {
+                "description": "Underdark-dwelling orcs.",
+                "ability_modifiers": {"Constitution": 1, "Intelligence": -1},
+                "racial_traits": [
+                    {"name": "Superior Darkvision", "description": "See 120 feet in darkness"}
+                ]
+            }
+        }
+    },
+    {
+        "name": "Goblin",
+        "description": "Cunning and vicious small humanoids.",
+        "ability_modifiers": {"Dexterity": 2, "Charisma": -2},
+        "size": "Small",
+        "speed": 30,
+        "favored_class": "Rogue",
+        "languages": ["Common", "Goblin"],
+        "racial_traits": [
+            {"name": "Darkvision", "description": "See 60 feet in darkness"},
+            {"name": "Sneaky", "description": "+4 bonus on Move Silently checks"},
+            {"name": "Tinker", "description": "+2 bonus on Craft (alchemy) checks"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Hobgoblin",
+        "description": "Disciplined and militaristic goblinoids.",
+        "ability_modifiers": {"Dexterity": 1, "Constitution": 1},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Fighter",
+        "languages": ["Common", "Goblin"],
+        "racial_traits": [
+            {"name": "Darkvision", "description": "See 60 feet in darkness"},
+            {"name": "Military Discipline", "description": "+2 bonus on saves against fear"},
+            {"name": "Tactical Awareness", "description": "+1 bonus on initiative checks"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Bugbear",
+        "description": "Large, hairy goblinoids with stealth skills.",
+        "ability_modifiers": {"Strength": 2, "Dexterity": 1, "Charisma": -2},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Rogue",
+        "languages": ["Common", "Goblin"],
+        "racial_traits": [
+            {"name": "Darkvision", "description": "See 60 feet in darkness"},
+            {"name": "Sneaky", "description": "+4 bonus on Move Silently checks"},
+            {"name": "Surprise Attack", "description": "+2d6 sneak attack damage"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Centaur",
+        "description": "Half-human, half-horse creatures.",
+        "ability_modifiers": {"Strength": 4, "Dexterity": 2, "Intelligence": -2},
+        "size": "Large",
+        "speed": 50,
+        "favored_class": "Ranger",
+        "languages": ["Common", "Sylvan"],
+        "racial_traits": [
+            {"name": "Powerful Charge", "description": "Deals double damage with lance charge attacks"},
+            {"name": "Natural Armor", "description": "+2 natural armor bonus"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Minotaur",
+        "description": "Bull-headed humanoids with great strength.",
+        "ability_modifiers": {"Strength": 4, "Intelligence": -2, "Charisma": -2},
+        "size": "Large",
+        "speed": 30,
+        "favored_class": "Barbarian",
+        "languages": ["Common"],
+        "racial_traits": [
+            {"name": "Natural Cunning", "description": "Cannot be flanked"},
+            {"name": "Gore Attack", "description": "Deals 1d8 damage with natural gore attack"},
+            {"name": "Scent", "description": "Can detect approaching enemies by smell"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Warforged",
+        "description": "Living constructs built for war.",
+        "ability_modifiers": {"Constitution": 2, "Wisdom": -2},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Fighter",
+        "languages": ["Common"],
+        "racial_traits": [
+            {"name": "Living Construct", "description": "Immune to poison, disease, and fatigue"},
+            {"name": "Composite Plating", "description": "+2 natural armor bonus"},
+            {"name": "Light Fortification", "description": "25% chance to negate critical hits"}
+        ],
+        "subraces": {
+            "Warforged Scout": {
+                "description": "Lighter, more agile warforged.",
+                "ability_modifiers": {"Dexterity": 1, "Constitution": -1},
+                "racial_traits": [
+                    {"name": "Sneaky", "description": "+2 bonus on Hide and Move Silently checks"}
+                ]
+            },
+            "Warforged Juggernaut": {
+                "description": "Heavier, more durable warforged.",
+                "ability_modifiers": {"Strength": 1, "Dexterity": -1},
+                "racial_traits": [
+                    {"name": "Improved Plating", "description": "+4 natural armor bonus"}
+                ]
+            }
+        }
+    },
+    {
+        "name": "Shifter",
+        "description": "Humanoids with lycanthropic heritage.",
+        "ability_modifiers": {},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Ranger",
+        "languages": ["Common"],
+        "racial_traits": [
+            {"name": "Low-Light Vision", "description": "See twice as far as humans in dim light"},
+            {"name": "Shifting", "description": "Can enter bestial state 1/day for 3 + Con modifier rounds"}
+        ],
+        "subraces": {
+            "Beasthide": {
+                "description": "Tough and resilient.",
+                "ability_modifiers": {"Constitution": 1},
+                "racial_traits": [
+                    {"name": "Thick Hide", "description": "+2 natural armor bonus when shifting"}
+                ]
+            },
+            "Longtooth": {
+                "description": "Feral bite attackers.",
+                "ability_modifiers": {"Strength": 1},
+                "racial_traits": [
+                    {"name": "Bite Attack", "description": "Deals 1d6 damage when shifting"}
+                ]
+            },
+            "Swiftwing": {
+                "description": "Avian-featured with flight potential.",
+                "ability_modifiers": {"Dexterity": 1},
+                "racial_traits": [
+                    {"name": "Glide", "description": "Can glide when shifting"}
+                ]
+            },
+            "Wildhunt": {
+                "description": "Superior trackers and hunters.",
+                "ability_modifiers": {"Wisdom": 1},
+                "racial_traits": [
+                    {"name": "Scent", "description": "Gains scent ability when shifting"}
+                ]
+            }
+        }
+    },
+    {
+        "name": "Changeling",
+        "description": "Shapechangers with doppelgänger ancestry.",
+        "ability_modifiers": {},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Rogue",
+        "languages": ["Common"],
+        "racial_traits": [
+            {"name": "Minor Change Shape", "description": "Can alter appearance at will"},
+            {"name": "Natural Linguist", "description": "+4 bonus on Bluff checks to disguise"}
+        ],
+        "subraces": {}
+    },
+    {
+        "name": "Kalashtar",
+        "description": "Psionically gifted humanoids with spirit bonds.",
+        "ability_modifiers": {"Wisdom": 2, "Charisma": 2},
+        "size": "Medium",
+        "speed": 30,
+        "favored_class": "Psion",
+        "languages": ["Common", "Quori"],
+        "racial_traits": [
+            {"name": "Mind Link", "description": "Can communicate telepathically with willing creatures"},
+            {"name": "Psionic Aptitude", "description": "+1 power point at 1st level"},
+            {"name": "Resistance to Possession", "description": "+2 bonus on saves against mind-affecting effects"}
+        ],
+        "subraces": {}
+    }
+]

@@ -1,0 +1,117 @@
+{
+  "Barbarian": {
+    "description": "A fierce warrior fueled by rage, excelling in melee combat with high durability and strength.",
+    "hit_die": 12,
+    "bab_progression": "fast",
+    "spellcasting": false,
+    "features": [
+      {"name": "Rage", "description": "Gain +4 Strength, +4 Constitution, +2 Will saves, -2 AC for limited rounds"},
+      {"name": "Fast Movement", "description": "+10 ft. to base speed"}
+    ]
+  },
+  "Bard": {
+    "description": "A charismatic performer who weaves magic through music and excels in social interactions.",
+    "hit_die": 6,
+    "bab_progression": "medium",
+    "spellcasting": true,
+    "spellcasting_stat": "Charisma",
+    "features": [
+      {"name": "Bardic Music", "description": "Inspire courage, fascinate, and other effects"},
+      {"name": "Bardic Knowledge", "description": "Bonus to Knowledge checks"}
+    ]
+  },
+  "Cleric": {
+    "description": "A divine spellcaster who channels the power of their deity to heal and protect allies.",
+    "hit_die": 8,
+    "bab_progression": "medium",
+    "spellcasting": true,
+    "spellcasting_stat": "Wisdom",
+    "features": [
+      {"name": "Turn Undead", "description": "Channel divine energy to turn undead"},
+      {"name": "Domains", "description": "Choose two domains for bonus spells and powers"}
+    ]
+  },
+  "Druid": {
+    "description": "A nature-bound spellcaster who draws power from the wilderness and bonds with animals.",
+    "hit_die": 8,
+    "bab_progression": "medium",
+    "spellcasting": true,
+    "spellcasting_stat": "Wisdom",
+    "features": [
+      {"name": "Animal Companion", "description": "Gain a loyal animal companion"},
+      {"name": "Nature Sense", "description": "Bonus to Knowledge (nature) and Survival"}
+    ]
+  },
+  "Fighter": {
+    "description": "A versatile combatant skilled in a wide array of weapons and tactics.",
+    "hit_die": 10,
+    "bab_progression": "fast",
+    "spellcasting": false,
+    "features": [
+      {"name": "Bonus Feat", "description": "Gain a bonus feat at 1st level and every even level"}
+    ]
+  },
+  "Monk": {
+    "description": "A martial artist who masters unarmed combat and spiritual discipline.",
+    "hit_die": 8,
+    "bab_progression": "medium",
+    "spellcasting": false,
+    "features": [
+      {"name": "Flurry of Blows", "description": "Extra attack with unarmed strikes"},
+      {"name": "Unarmed Strike", "description": "Improved unarmed damage"}
+    ]
+  },
+  "Paladin": {
+    "description": "A holy warrior dedicated to righteousness, wielding divine magic and smiting evil.",
+    "hit_die": 10,
+    "bab_progression": "fast",
+    "spellcasting": true,
+    "spellcasting_stat": "Wisdom",
+    "features": [
+      {"name": "Smite Evil", "description": "Bonus damage against evil creatures"},
+      {"name": "Divine Grace", "description": "Add Charisma to saves"}
+    ]
+  },
+  "Ranger": {
+    "description": "A skilled tracker and wilderness expert, adept at hunting specific foes.",
+    "hit_die": 8,
+    "bab_progression": "fast",
+    "spellcasting": true,
+    "spellcasting_stat": "Wisdom",
+    "features": [
+      {"name": "Favored Enemy", "description": "Bonus against specific creature types"},
+      {"name": "Track", "description": "Enhanced tracking ability"}
+    ]
+  },
+  "Rogue": {
+    "description": "A cunning operative skilled in stealth, traps, and precise strikes.",
+    "hit_die": 6,
+    "bab_progression": "medium",
+    "spellcasting": false,
+    "features": [
+      {"name": "Sneak Attack", "description": "+1d6 damage against flanked or flat-footed enemies"},
+      {"name": "Trapfinding", "description": "Find and disarm traps"}
+    ]
+  },
+  "Sorcerer": {
+    "description": "An innate arcane caster who wields powerful magic through charisma and bloodline.",
+    "hit_die": 4,
+    "bab_progression": "slow",
+    "spellcasting": true,
+    "spellcasting_stat": "Charisma",
+    "features": [
+      {"name": "Familiar", "description": "Gain a magical familiar"}
+    ]
+  },
+  "Wizard": {
+    "description": "A scholarly arcane caster who masters magic through study and spellbooks.",
+    "hit_die": 4,
+    "bab_progression": "slow",
+    "spellcasting": true,
+    "spellcasting_stat": "Intelligence",
+    "features": [
+      {"name": "Spellbook", "description": "Prepare spells from a spellbook"},
+      {"name": "Familiar", "description": "Gain a magical familiar"}
+    ]
+  }
+}

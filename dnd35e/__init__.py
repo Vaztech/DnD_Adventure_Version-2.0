@@ -1,0 +1,1 @@
+from .core.monsters import Monster, Attack, MonsterTemplate

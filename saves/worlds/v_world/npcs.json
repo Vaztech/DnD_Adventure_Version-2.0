@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Thalorien_0_leader",
+    "race": "Elf",
+    "civ": "Thalorien_0",
+    "profession": "unknown",
+    "traits": [],
+    "notable": true
+  },
+  {
+    "name": "Thalorien_0_guard",
+    "race": "Elf",
+    "civ": "Thalorien_0",
+    "profession": "unknown",
+    "traits": [],
+    "notable": true
+  },
+  {
+    "name": "Dwarovar_1_leader",
+    "race": "Dwarf",
+    "civ": "Dwarovar_1",
+    "profession": "unknown",
+    "traits": [],
+    "notable": true
+  },
+  {
+    "name": "Dwarovar_1_guard",
+    "race": "Dwarf",
+    "civ": "Dwarovar_1",
+    "profession": "unknown",
+    "traits": [],
+    "notable": true
+  },
+  {
+    "name": "ghost_knight",
+    "race": "unknown",
+    "civ": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "notable": true
+  },
+  {
+    "name": "ghost_knight",
+    "race": "unknown",
+    "civ": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "notable": true
+  },
+  {
+    "name": "ghost_knight",
+    "race": "unknown",
+    "civ": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "notable": true
+  },
+  {
+    "name": "ghost_knight",
+    "race": "unknown",
+    "civ": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "notable": true
+  },
+  {
+    "name": "ghost_knight",
+    "race": "unknown",
+    "civ": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "notable": true
+  }
+]

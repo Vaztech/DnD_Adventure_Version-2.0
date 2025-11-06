@@ -1,0 +1,7 @@
+dnd_adventure/
+├── __init__.py
+├── game.py          # Main game file
+├── character.py     # Extended Player class
+├── world.py         # World building
+├── commands.py      # Game commands
+└── dnd35e/          # Your D&D 3.5e library

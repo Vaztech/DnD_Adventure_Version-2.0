@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Thalorien_0",
+    "race": "Elf",
+    "description": "A woodland realm of arcane scholars and graceful warriors.",
+    "capital": {
+      "x": 3,
+      "y": 4
+    }
+  },
+  {
+    "name": "Dwarovar_1",
+    "race": "Dwarf",
+    "description": "A stout kingdom carved into mountains, known for forges and honor.",
+    "capital": {
+      "x": 47,
+      "y": 38
+    }
+  }
+]

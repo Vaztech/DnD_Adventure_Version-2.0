@@ -1,0 +1,210 @@
+{
+    "terrains": {
+        "plains": {
+            "symbol": "♠",
+            "color": "green",
+            "type": "plains"
+        },
+        "forest": {
+            "symbol": "♣",
+            "color": "dark_green",
+            "type": "forest"
+        },
+        "mountain": {
+            "symbol": "▲",
+            "color": "gray",
+            "type": "mountain"
+        },
+        "river": {
+            "symbol": "~",
+            "color": "blue",
+            "type": "river"
+        },
+        "lake": {
+            "symbol": "≈",
+            "color": "light_blue_ex",
+            "type": "lake"
+        },
+        "ocean": {
+            "symbol": "≋",
+            "color": "cyan",
+            "type": "ocean"
+        },
+        "dungeon": {
+            "symbol": "₪",
+            "color": "light_black_ex",
+            "type": "dungeon"
+        },
+        "castle": {
+            "symbol": "♜",
+            "color": "light_white_ex",
+            "type": "castle"
+        },
+        "door": {
+            "symbol": "+",
+            "color": "yellow",
+            "type": "door"
+        }
+    },
+    "structures": {
+        "house": {
+            "symbol": "⌂",
+            "color": "brown",
+            "type": "house"
+        },
+        "tree": {
+            "symbol": "♣",
+            "color": "dark_green",
+            "type": "tree"
+        },
+        "door": {
+            "symbol": "+",
+            "color": "yellow",
+            "type": "door"
+        }
+    },
+    "maps": {
+        "plains": {
+            "description": "Open plains with rolling hills and grass.",
+            "layout": [
+                ".....",
+                ".   .",
+                ".   .",
+                ".   .",
+                "....."
+            ],
+            "symbols": {
+                ".": {
+                    "symbol": ".",
+                    "color": "green",
+                    "type": "plains"
+                }
+            }
+        },
+        "forest": {
+            "description": "A dense forest with tall trees and underbrush.",
+            "layout": [
+                "♣♣♣♣♣",
+                "♣   ♣",
+                "♣   ♣",
+                "♣   ♣",
+                "♣♣♣♣♣"
+            ],
+            "symbols": {
+                "♣": {
+                    "symbol": "♣",
+                    "color": "dark_green",
+                    "type": "tree"
+                },
+                " ": {
+                    "symbol": " ",
+                    "color": "green",
+                    "type": "plains"
+                }
+            }
+        },
+        "dungeon": {
+            "description": "A dark, eerie dungeon with stone walls.",
+            "layout": [
+                "▓▓▓▓▓",
+                "▓   ▓",
+                "▓   ▓",
+                "▓  +▓",
+                "▓▓▓▓▓"
+            ],
+            "symbols": {
+                "▓": {
+                    "symbol": "▓",
+                    "color": "gray",
+                    "type": "wall"
+                },
+                " ": {
+                    "symbol": " ",
+                    "color": "light_black_ex",
+                    "type": "floor"
+                },
+                "+": {
+                    "symbol": "+",
+                    "color": "yellow",
+                    "type": "door"
+                }
+            }
+        },
+        "castle": {
+            "description": "You enter a grand castle hall.",
+            "layout": [
+                "▓▓▓▓▓",
+                "▓   ▓",
+                "▓   ▓",
+                "▓  +▓",
+                "▓▓▓▓▓"
+            ],
+            "symbols": {
+                "▓": {
+                    "symbol": "▓",
+                    "color": "light_white_ex",
+                    "type": "wall"
+                },
+                " ": {
+                    "symbol": " ",
+                    "color": "white",
+                    "type": "floor"
+                },
+                "+": {
+                    "symbol": "+",
+                    "color": "yellow",
+                    "type": "door"
+                }
+            }
+        },
+        "house": {
+            "description": "A cozy house with wooden walls.",
+            "layout": [
+                "⌂⌂⌂⌂⌂",
+                "⌂   ⌂",
+                "⌂   ⌂",
+                "⌂  +⌂",
+                "⌂⌂⌂⌂⌂"
+            ],
+            "symbols": {
+                "⌂": {
+                    "symbol": "⌂",
+                    "color": "brown",
+                    "type": "wall"
+                },
+                " ": {
+                    "symbol": " ",
+                    "color": "light_yellow_ex",
+                    "type": "floor"
+                },
+                "+": {
+                    "symbol": "+",
+                    "color": "yellow",
+                    "type": "door"
+                }
+            }
+        }
+    },
+    "weather": {
+        "clear": {
+            "symbol": "☼",
+            "color": "yellow",
+            "description": "The sun shines brightly, casting warm light over the land."
+        },
+        "rain": {
+            "symbol": "☂",
+            "color": "light_blue_ex",
+            "description": "A gentle rain falls, soaking the ground and creating small puddles."
+        },
+        "storm": {
+            "symbol": "⚡",
+            "color": "light_cyan_ex",
+            "description": "Thunder rumbles as a fierce storm rages, with lightning illuminating the sky."
+        },
+        "fog": {
+            "symbol": "≈",
+            "color": "light_black_ex",
+            "description": "A thick fog blankets the area, obscuring vision and muffling sounds."
+        }
+    }
+}

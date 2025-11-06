@@ -1,0 +1,55 @@
+{
+  "theme": "Fantasy",
+  "intro": "A realm of dragons, knights, and ancient magic, where heroes forge their legends.",
+  "civilizations": [
+    {
+      "name": "Dwarovar",
+      "race": "Dwarf",
+      "description": "A stout kingdom carved into mountains, known for forges and honor."
+    },
+    {
+      "name": "Thalorien",
+      "race": "Elf",
+      "description": "A woodland realm of arcane scholars and graceful warriors."
+    }
+  ],
+  "rooms": [
+    {
+      "type": "capital",
+      "name": "{civ_name} Capital",
+      "description": "The bustling capital of {civ_name}, a {biome} stronghold.",
+      "biome": ["plains", "mountain"],
+      "symbols": {"wall": "▓", "floor": " ", "door": "+"},
+      "npcs": ["{civ_name}_leader", "{civ_name}_guard"]
+    },
+    {
+      "type": "dungeon",
+      "name": "Dragonspire Keep",
+      "description": "A ruined keep haunted by a dragon’s spirit.",
+      "biome": ["mountain"],
+      "symbols": {"wall": "█", "floor": ".", "treasure": "*"},
+      "npcs": ["ghost_knight"],
+      "monsters": ["drake"]
+    }
+  ],
+  "npcs": [
+    {
+      "name": "{civ_name}_leader",
+      "dialogue": ["Welcome to {civ_name}, hero!", "Seek the dragon’s hoard in the mountains."]
+    },
+    {
+      "name": "{civ_name}_guard",
+      "dialogue": ["The roads are dangerous; stay sharp."]
+    },
+    {
+      "name": "ghost_knight",
+      "dialogue": ["Free my soul by slaying the drake!"]
+    }
+  ],
+  "events": [
+    {
+      "name": "The Dragonfall",
+      "description": "A century ago, dragons warred and fell, their corpses seeding magical wastelands."
+    }
+  ]
+}

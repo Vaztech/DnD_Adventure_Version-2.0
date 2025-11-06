@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Oracle Tiri",
+    "dialog": {
+      "default": "The ruins speak to those who listen. Darkness stirs once more.",
+      "low_charisma": "You seem... untrustworthy. Speak quickly.",
+      "high_charisma": "Your presence is calming. The ruins need heroes like you."
+    },
+    "charisma_thresholds": {"low": 8, "high": 14},
+    "inventory": {"Potion of Cure Light Wounds": 10, "Staff": 2, "Bag of Herbs": 5},
+    "gear": ["Staff of the Woodlands", "Bag of Herbs"],
+    "quest_offers": [1],
+    "is_merchant": true,
+    "location": "93,92"
+  },
+  {
+    "name": "Grumpy Garret",
+    "dialog": {
+      "default": "Bah, adventurers. Always causing more trouble than they fix.",
+      "low_charisma": "Get lost, you look like trouble!",
+      "high_charisma": "Hmph, you seem alright for an adventurer."
+    },
+    "charisma_thresholds": {"low": 8, "high": 14},
+    "inventory": {},
+    "gear": [],
+    "quest_offers": [],
+    "is_merchant": false,
+    "location": "98,95"
+  },
+  {
+    "name": "Sergeant Kora",
+    "dialog": {
+      "default": "We've seen increased movement near the undercity. Something's coming.",
+      "low_charisma": "I don’t trust you. State your business.",
+      "high_charisma": "You look capable. We need help in the undercity."
+    },
+    "charisma_thresholds": {"low": 8, "high": 14},
+    "inventory": {},
+    "gear": ["Sword", "Shield"],
+    "quest_offers": [2],
+    "is_merchant": false,
+    "location": "89,100"
+  },
+  {
+    "name": "Cleric Doma",
+    "dialog": {
+      "default": "Faith alone cannot turn back the tide. We must act swiftly.",
+      "low_charisma": "Your aura is troubling. Why are you here?",
+      "high_charisma": "The gods favor you. Will you aid us?"
+    },
+    "charisma_thresholds": {"low": 8, "high": 14},
+    "inventory": {"Scroll of Restoration": 5, "Holy Symbol": 3},
+    "gear": ["Holy Symbol", "Scroll of Restoration"],
+    "quest_offers": [],
+    "is_merchant": true,
+    "location": "103,102"
+  },
+  {
+    "name": "Zhentarim Agent",
+    "dialog": {
+      "default": "The right coin can make anyone... cooperative.",
+      "low_charisma": "You’re not worth my time. Scram.",
+      "high_charisma": "You’ve got charm. Let’s talk business."
+    },
+    "charisma_thresholds": {"low": 8, "high": 14},
+    "inventory": {},
+    "gear": ["Dagger", "Cloak"],
+    "quest_offers": [],
+    "is_merchant": false,
+    "location": "98,91"
+  },
+  {
+    "name": "Madam Eva",
+    "dialog": {
+      "default": "The cards show many paths... but all lead to blood.",
+      "low_charisma": "The cards scorn you. Leave me be.",
+      "high_charisma": "The cards favor you. Seek the truth."
+    },
+    "charisma_thresholds": {"low": 8, "high": 14},
+    "inventory": {},
+    "gear": ["Tarot Deck"],
+    "quest_offers": [],
+    "is_merchant": false,
+    "location": "98,95"
+  },
+  {
+    "name": "Factor Jaris",
+    "dialog": {
+      "default": "Every service has its price. What's your offer worth?",
+      "low_charisma": "I don’t deal with riffraff. Beat it.",
+      "high_charisma": "A pleasure to meet you. Let’s make a deal."
+    },
+    "charisma_thresholds": {"low": 8, "high": 14},
+    "inventory": {"Dagger": 5, "Padded Armor": 3, "Longsword": 2, "Buckler": 2, "Signet Ring": 1},
+    "gear": ["Ledger of Accounts", "Signet Ring"],
+    "quest_offers": [],
+    "is_merchant": true,
+    "location": "97,103"
+  },
+  {
+    "name": "Witchlight Jax",
+    "dialog": {
+      "default": "The moon's song tonight tells of doors best left unopened...",
+      "low_charisma": "Your soul is dim. Stay away from the Feywild.",
+      "high_charisma": "The moon sings for you. Will you heed its call?"
+    },
+    "charisma_thresholds": {"low": 8, "high": 14},
+    "inventory": {},
+    "gear": ["Fey Charm"],
+    "quest_offers": [3],
+    "is_merchant": false,
+    "location": "98,99"
+  }
+]
