@@ -1,0 +1,210 @@
+[
+  {
+    "year": 1,
+    "type": "Alliance",
+    "civilization": "Warforged Empire",
+    "race": "Centaur",
+    "description": "The Centaur people form an alliance with Warforged Empire.",
+    "index": 1
+  },
+  {
+    "year": 14,
+    "type": "Discovery",
+    "civilization": "Goblin Empire",
+    "race": "Hobgoblin",
+    "description": "Explorers from Goblin Empire uncover ancient relics of the Hobgoblin.",
+    "index": 2
+  },
+  {
+    "year": 37,
+    "type": "War",
+    "civilization": "Hobgoblin Empire",
+    "race": "Genasi",
+    "description": "A bloody war erupts between the Genasi and Hobgoblin Empire.",
+    "index": 3
+  },
+  {
+    "year": 50,
+    "type": "Rebellion",
+    "civilization": "Goliath Empire",
+    "race": "Warforged",
+    "description": "A rebellion led by Warforged dissidents shakes Goliath Empire.",
+    "index": 4
+  },
+  {
+    "year": 64,
+    "type": "Discovery",
+    "civilization": "Goliath Empire",
+    "race": "Human",
+    "description": "Explorers from Goliath Empire uncover ancient relics of the Human.",
+    "index": 5
+  },
+  {
+    "year": 67,
+    "type": "Invention",
+    "civilization": "Half-Elf Empire",
+    "race": "Tiefling",
+    "description": "The Tiefling invent a new tool that revolutionizes life in Half-Elf Empire.",
+    "index": 6
+  },
+  {
+    "year": 71,
+    "type": "Alliance",
+    "civilization": "Minotaur Empire",
+    "race": "Goliath",
+    "description": "The Goliath people form an alliance with Minotaur Empire.",
+    "index": 7
+  },
+  {
+    "year": 84,
+    "type": "Rebellion",
+    "civilization": "Halfling Empire",
+    "race": "Minotaur",
+    "description": "A rebellion led by Minotaur dissidents shakes Halfling Empire.",
+    "index": 8
+  },
+  {
+    "year": 108,
+    "type": "Rebellion",
+    "civilization": "Gnome Empire",
+    "race": "Hobgoblin",
+    "description": "A rebellion led by Hobgoblin dissidents shakes Gnome Empire.",
+    "index": 9
+  },
+  {
+    "year": 125,
+    "type": "War",
+    "civilization": "Gnome Empire",
+    "race": "Goliath",
+    "description": "A bloody war erupts between the Goliath and Gnome Empire.",
+    "index": 10
+  },
+  {
+    "year": 133,
+    "type": "Invention",
+    "civilization": "Aasimar Empire",
+    "race": "Hobgoblin",
+    "description": "The Hobgoblin invent a new tool that revolutionizes life in Aasimar Empire.",
+    "index": 11
+  },
+  {
+    "year": 135,
+    "type": "Catastrophe",
+    "civilization": "Warforged Empire",
+    "race": "Halfling",
+    "description": "Natural disasters ravage Warforged Empire, decimating the Halfling population.",
+    "index": 12
+  },
+  {
+    "year": 153,
+    "type": "War",
+    "civilization": "Tiefling Empire",
+    "race": "Elf",
+    "description": "A bloody war erupts between the Elf and Tiefling Empire.",
+    "index": 13
+  },
+  {
+    "year": 160,
+    "type": "War",
+    "civilization": "Half-Orc Empire",
+    "race": "Half-Orc",
+    "description": "A bloody war erupts between the Half-Orc and Half-Orc Empire.",
+    "index": 14
+  },
+  {
+    "year": 181,
+    "type": "Discovery",
+    "civilization": "Half-Orc Empire",
+    "race": "Goblin",
+    "description": "Explorers from Half-Orc Empire uncover ancient relics of the Goblin.",
+    "index": 15
+  },
+  {
+    "year": 188,
+    "type": "Rebellion",
+    "civilization": "Kobold Empire",
+    "race": "Hobgoblin",
+    "description": "A rebellion led by Hobgoblin dissidents shakes Kobold Empire.",
+    "index": 16
+  },
+  {
+    "year": 190,
+    "type": "Rebellion",
+    "civilization": "Minotaur Empire",
+    "race": "Human",
+    "description": "A rebellion led by Human dissidents shakes Minotaur Empire.",
+    "index": 17
+  },
+  {
+    "year": 195,
+    "type": "Migration",
+    "civilization": "Half-Elf Empire",
+    "race": "Dwarf",
+    "description": "The Dwarf migrate en masse toward the borders of Half-Elf Empire.",
+    "index": 18
+  },
+  {
+    "year": 220,
+    "type": "Migration",
+    "civilization": "Kobold Empire",
+    "race": "Kobold",
+    "description": "The Kobold migrate en masse toward the borders of Kobold Empire.",
+    "index": 19
+  },
+  {
+    "year": 244,
+    "type": "Invention",
+    "civilization": "Aasimar Empire",
+    "race": "Genasi",
+    "description": "The Genasi invent a new tool that revolutionizes life in Aasimar Empire.",
+    "index": 20
+  },
+  {
+    "year": 253,
+    "type": "Plague",
+    "civilization": "Tiefling Empire",
+    "race": "Kalashtar",
+    "description": "A terrible plague spreads through Tiefling Empire, striking both Kalashtar and allies.",
+    "index": 21
+  },
+  {
+    "year": 276,
+    "type": "Alliance",
+    "civilization": "Gnome Empire",
+    "race": "Aasimar",
+    "description": "The Aasimar people form an alliance with Gnome Empire.",
+    "index": 22
+  },
+  {
+    "year": 298,
+    "type": "War",
+    "civilization": "Aasimar Empire",
+    "race": "Half-Elf",
+    "description": "A bloody war erupts between the Half-Elf and Aasimar Empire.",
+    "index": 23
+  },
+  {
+    "year": 303,
+    "type": "Migration",
+    "civilization": "Genasi Empire",
+    "race": "Human",
+    "description": "The Human migrate en masse toward the borders of Genasi Empire.",
+    "index": 24
+  },
+  {
+    "year": 327,
+    "type": "Alliance",
+    "civilization": "Dwarf Empire",
+    "race": "Kobold",
+    "description": "The Kobold people form an alliance with Dwarf Empire.",
+    "index": 25
+  },
+  {
+    "year": 328,
+    "type": "War",
+    "civilization": "Minotaur Empire",
+    "race": "Shifter",
+    "description": "A bloody war erupts between the Shifter and Minotaur Empire.",
+    "index": 26
+  }
+]

@@ -4,17 +4,23 @@
     "race": "Elf",
     "description": "A woodland realm of arcane scholars and graceful warriors.",
     "capital": {
-      "x": 32,
-      "y": 35
-    }
+      "x": 16,
+      "y": 42
+    },
+    "power": 42,
+    "population": 3981,
+    "biome": "forest"
   },
   {
-    "name": "Dwarovar_1",
-    "race": "Dwarf",
-    "description": "A stout kingdom carved into mountains, known for forges and honor.",
+    "name": "Thalorien_1",
+    "race": "Elf",
+    "description": "A woodland realm of arcane scholars and graceful warriors.",
     "capital": {
-      "x": 39,
-      "y": 29
-    }
+      "x": 20,
+      "y": 0
+    },
+    "power": 58,
+    "population": 3857,
+    "biome": "plains"
   }
 ]

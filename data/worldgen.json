@@ -1,0 +1,65 @@
+{
+  "width": 80,
+  "height": 60,
+  "seed": 20251106,
+
+  "noise": {
+    "scale": 32.0,
+    "octaves": 4,
+    "persistence": 0.5,
+    "lacunarity": 2.0
+  },
+
+  "biomes": {
+    "thresholds": {
+      "water": 0.28,
+      "sand": 0.36,
+      "grass": 0.64,
+      "forest": 0.82
+    },
+    "mountain_height": 0.90
+  },
+
+  "rivers": {
+    "count": 6,
+    "min_length": 18,
+    "max_meander": 3
+  },
+
+  "poi": {
+    "towns": 8,
+    "castles": 3,
+    "dungeons": 8,
+    "min_spacing": 4,
+
+    "weights": {
+      "town_near": ["grass", "forest", "sand"],
+      "castle_near": ["grass", "mountain", "forest"],
+      "dungeon_near": ["forest", "mountain"]
+    }
+  },
+
+  "roads": {
+    "enabled": true,
+    "connect": ["towns", "castles"],
+    "max_segments": 200
+  },
+
+  "factions": [
+    { "name": "Highmark League", "race": "Human", "color": "#C49A6C" },
+    { "name": "Verdant Court", "race": "Elf",   "color": "#5FAF5F" },
+    { "name": "Stonebound Clans", "race": "Dwarf", "color": "#A6A6A6" }
+  ],
+
+  "naming": {
+    "town_prefix": ["Green", "Oak", "River", "Stone", "Fall", "High", "Low", "Bright", "Storm", "Sun"],
+    "town_suffix": ["dale", "ford", "holm", "wick", "shire", "gate", "haven", "point", "watch", "crest"],
+    "castle_names": ["Blackspire", "Kingsrest", "Ironwatch", "Stormkeep", "Highwall", "Dawnspire", "Frostgate"],
+    "dungeon_names": ["Whisper Caves", "Gloom Hollow", "Ashen Depths", "Spider Warrens", "Lost Catacombs"]
+  },
+
+  "spawn": {
+    "prefer": "dungeon",
+    "fallback": "0,0"
+  }
+}

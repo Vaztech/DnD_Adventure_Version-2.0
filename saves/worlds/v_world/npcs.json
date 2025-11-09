@@ -2,73 +2,190 @@
   {
     "name": "Thalorien_0_leader",
     "race": "Elf",
-    "civ": "Thalorien_0",
+    "home_civilization": "Thalorien_0",
     "profession": "unknown",
     "traits": [],
-    "notable": true
+    "is_notable": false,
+    "influence": 85
   },
   {
     "name": "Thalorien_0_guard",
     "race": "Elf",
-    "civ": "Thalorien_0",
+    "home_civilization": "Thalorien_0",
     "profession": "unknown",
     "traits": [],
-    "notable": true
-  },
-  {
-    "name": "Dwarovar_1_leader",
-    "race": "Dwarf",
-    "civ": "Dwarovar_1",
-    "profession": "unknown",
-    "traits": [],
-    "notable": true
-  },
-  {
-    "name": "Dwarovar_1_guard",
-    "race": "Dwarf",
-    "civ": "Dwarovar_1",
-    "profession": "unknown",
-    "traits": [],
-    "notable": true
+    "is_notable": false,
+    "influence": 78
   },
   {
     "name": "ghost_knight",
-    "race": "unknown",
-    "civ": "unknown",
+    "race": "Elf",
+    "home_civilization": "unknown",
     "profession": "unknown",
     "traits": [],
-    "notable": true
+    "is_notable": false,
+    "influence": 3
+  },
+  {
+    "name": "Thalorien_1_leader",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 82
+  },
+  {
+    "name": "Thalorien_1_guard",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 49
   },
   {
     "name": "ghost_knight",
-    "race": "unknown",
-    "civ": "unknown",
+    "race": "Elf",
+    "home_civilization": "unknown",
     "profession": "unknown",
     "traits": [],
-    "notable": true
+    "is_notable": false,
+    "influence": 97
+  },
+  {
+    "name": "Thalorien_1_leader",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 50
+  },
+  {
+    "name": "Thalorien_1_guard",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 36
   },
   {
     "name": "ghost_knight",
-    "race": "unknown",
-    "civ": "unknown",
+    "race": "Elf",
+    "home_civilization": "unknown",
     "profession": "unknown",
     "traits": [],
-    "notable": true
+    "is_notable": false,
+    "influence": 99
+  },
+  {
+    "name": "Thalorien_1_leader",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 63
+  },
+  {
+    "name": "Thalorien_1_guard",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 55
   },
   {
     "name": "ghost_knight",
-    "race": "unknown",
-    "civ": "unknown",
+    "race": "Elf",
+    "home_civilization": "unknown",
     "profession": "unknown",
     "traits": [],
-    "notable": true
+    "is_notable": false,
+    "influence": 77
+  },
+  {
+    "name": "Thalorien_1_leader",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 98
+  },
+  {
+    "name": "Thalorien_1_guard",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 23
   },
   {
     "name": "ghost_knight",
-    "race": "unknown",
-    "civ": "unknown",
+    "race": "Elf",
+    "home_civilization": "unknown",
     "profession": "unknown",
     "traits": [],
-    "notable": true
+    "is_notable": false,
+    "influence": 99
+  },
+  {
+    "name": "Thalorien_1_leader",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 31
+  },
+  {
+    "name": "Thalorien_1_guard",
+    "race": "Elf",
+    "home_civilization": "Thalorien_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 13
+  },
+  {
+    "name": "ghost_knight",
+    "race": "Elf",
+    "home_civilization": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 15
+  },
+  {
+    "name": "Thalorien_0_leader",
+    "race": "Elf",
+    "home_civilization": "Thalorien_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 40
+  },
+  {
+    "name": "Thalorien_0_guard",
+    "race": "Elf",
+    "home_civilization": "Thalorien_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 86
+  },
+  {
+    "name": "ghost_knight",
+    "race": "Elf",
+    "home_civilization": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 63
   }
 ]

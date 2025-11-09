@@ -1,0 +1,122 @@
+[
+  {
+    "year": 7,
+    "type": "Migration",
+    "civilization": "Goliath Empire",
+    "race": "Minotaur",
+    "description": "The Minotaur migrate en masse toward the borders of Goliath Empire.",
+    "index": 1
+  },
+  {
+    "year": 21,
+    "type": "Catastrophe",
+    "civilization": "Half-Orc Empire",
+    "race": "Orc",
+    "description": "Natural disasters ravage Half-Orc Empire, decimating the Orc population.",
+    "index": 2
+  },
+  {
+    "year": 22,
+    "type": "Discovery",
+    "civilization": "Goliath Empire",
+    "race": "Bugbear",
+    "description": "Explorers from Goliath Empire uncover ancient relics of the Bugbear.",
+    "index": 3
+  },
+  {
+    "year": 29,
+    "type": "Invention",
+    "civilization": "Changeling Empire",
+    "race": "Hobgoblin",
+    "description": "The Hobgoblin invent a new tool that revolutionizes life in Changeling Empire.",
+    "index": 4
+  },
+  {
+    "year": 52,
+    "type": "Migration",
+    "civilization": "Centaur Empire",
+    "race": "Orc",
+    "description": "The Orc migrate en masse toward the borders of Centaur Empire.",
+    "index": 5
+  },
+  {
+    "year": 63,
+    "type": "War",
+    "civilization": "Genasi Empire",
+    "race": "Human",
+    "description": "A bloody war erupts between the Human and Genasi Empire.",
+    "index": 6
+  },
+  {
+    "year": 79,
+    "type": "Invention",
+    "civilization": "Dwarf Empire",
+    "race": "Dwarf",
+    "description": "The Dwarf invent a new tool that revolutionizes life in Dwarf Empire.",
+    "index": 7
+  },
+  {
+    "year": 97,
+    "type": "War",
+    "civilization": "Genasi Empire",
+    "race": "Goliath",
+    "description": "A bloody war erupts between the Goliath and Genasi Empire.",
+    "index": 8
+  },
+  {
+    "year": 115,
+    "type": "Rebellion",
+    "civilization": "Warforged Empire",
+    "race": "Kalashtar",
+    "description": "A rebellion led by Kalashtar dissidents shakes Warforged Empire.",
+    "index": 9
+  },
+  {
+    "year": 134,
+    "type": "Discovery",
+    "civilization": "Shifter Empire",
+    "race": "Dwarf",
+    "description": "Explorers from Shifter Empire uncover ancient relics of the Dwarf.",
+    "index": 10
+  },
+  {
+    "year": 153,
+    "type": "War",
+    "civilization": "Centaur Empire",
+    "race": "Half-Orc",
+    "description": "A bloody war erupts between the Half-Orc and Centaur Empire.",
+    "index": 11
+  },
+  {
+    "year": 178,
+    "type": "Rebellion",
+    "civilization": "Tiefling Empire",
+    "race": "Changeling",
+    "description": "A rebellion led by Changeling dissidents shakes Tiefling Empire.",
+    "index": 12
+  },
+  {
+    "year": 202,
+    "type": "Migration",
+    "civilization": "Genasi Empire",
+    "race": "Gnome",
+    "description": "The Gnome migrate en masse toward the borders of Genasi Empire.",
+    "index": 13
+  },
+  {
+    "year": 215,
+    "type": "Discovery",
+    "civilization": "Tiefling Empire",
+    "race": "Centaur",
+    "description": "Explorers from Tiefling Empire uncover ancient relics of the Centaur.",
+    "index": 14
+  },
+  {
+    "year": 235,
+    "type": "War",
+    "civilization": "Hobgoblin Empire",
+    "race": "Centaur",
+    "description": "A bloody war erupts between the Centaur and Hobgoblin Empire.",
+    "index": 15
+  }
+]

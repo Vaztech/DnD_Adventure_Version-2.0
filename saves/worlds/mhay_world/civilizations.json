@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Dwarovar_0",
+    "race": "Dwarf",
+    "description": "A stout kingdom carved into mountains, known for forges and honor.",
+    "capital": {
+      "x": 17,
+      "y": 13
+    },
+    "power": 46,
+    "population": 3966,
+    "biome": "plains"
+  },
+  {
+    "name": "Dwarovar_1",
+    "race": "Dwarf",
+    "description": "A stout kingdom carved into mountains, known for forges and honor.",
+    "capital": {
+      "x": 32,
+      "y": 22
+    },
+    "power": 27,
+    "population": 4212,
+    "biome": "hills"
+  }
+]

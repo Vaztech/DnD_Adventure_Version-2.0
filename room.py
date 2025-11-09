@@ -7,13 +7,16 @@ from dnd_adventure.npc import NPC
 
 logger = logging.getLogger(__name__)
 
+
 class RoomType(Enum):
     TOWN = "town"
+    PLAINS = "plains"  # ✅ Added to fix ValueError
     DUNGEON = "dungeon"
     WILDERNESS = "wilderness"
     CASTLE = "castle"
     TEMPLE = "temple"
     CAVE = "cave"
+
 
 class Room:
     def __init__(

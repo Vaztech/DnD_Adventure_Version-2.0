@@ -1,20 +1,26 @@
 [
   {
-    "name": "Thalorien_0",
+    "name": "Dwarovar_0",
+    "race": "Dwarf",
+    "description": "A stout kingdom carved into mountains, known for forges and honor.",
+    "capital": {
+      "x": 46,
+      "y": 4
+    },
+    "power": 54,
+    "population": 4255,
+    "biome": "plains"
+  },
+  {
+    "name": "Thalorien_1",
     "race": "Elf",
     "description": "A woodland realm of arcane scholars and graceful warriors.",
     "capital": {
       "x": 3,
-      "y": 4
-    }
-  },
-  {
-    "name": "Dwarovar_1",
-    "race": "Dwarf",
-    "description": "A stout kingdom carved into mountains, known for forges and honor.",
-    "capital": {
-      "x": 47,
-      "y": 38
-    }
+      "y": 0
+    },
+    "power": 55,
+    "population": 1197,
+    "biome": "mountains"
   }
 ]

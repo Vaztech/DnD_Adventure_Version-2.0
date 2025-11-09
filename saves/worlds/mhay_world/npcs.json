@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Dwarovar_0_leader",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 38
+  },
+  {
+    "name": "Dwarovar_0_guard",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 33
+  },
+  {
+    "name": "ghost_knight",
+    "race": "Dwarf",
+    "home_civilization": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 46
+  },
+  {
+    "name": "Dwarovar_1_leader",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 12
+  },
+  {
+    "name": "Dwarovar_1_guard",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 29
+  },
+  {
+    "name": "ghost_knight",
+    "race": "Dwarf",
+    "home_civilization": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 42
+  },
+  {
+    "name": "Dwarovar_0_leader",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 33
+  },
+  {
+    "name": "Dwarovar_0_guard",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 89
+  },
+  {
+    "name": "ghost_knight",
+    "race": "Dwarf",
+    "home_civilization": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 38
+  },
+  {
+    "name": "Dwarovar_0_leader",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 2
+  },
+  {
+    "name": "Dwarovar_0_guard",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 32
+  },
+  {
+    "name": "ghost_knight",
+    "race": "Dwarf",
+    "home_civilization": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 40
+  },
+  {
+    "name": "Dwarovar_0_leader",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 60
+  },
+  {
+    "name": "Dwarovar_0_guard",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_0",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 34
+  },
+  {
+    "name": "ghost_knight",
+    "race": "Dwarf",
+    "home_civilization": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 50
+  },
+  {
+    "name": "Dwarovar_1_leader",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 70
+  },
+  {
+    "name": "Dwarovar_1_guard",
+    "race": "Dwarf",
+    "home_civilization": "Dwarovar_1",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 15
+  },
+  {
+    "name": "ghost_knight",
+    "race": "Dwarf",
+    "home_civilization": "unknown",
+    "profession": "unknown",
+    "traits": [],
+    "is_notable": false,
+    "influence": 26
+  }
+]

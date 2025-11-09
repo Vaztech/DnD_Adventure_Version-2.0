@@ -1,0 +1,178 @@
+[
+  {
+    "year": 17,
+    "type": "Discovery",
+    "civilization": "Dwarf Empire",
+    "race": "Centaur",
+    "description": "Explorers from Dwarf Empire uncover ancient relics of the Centaur.",
+    "index": 1
+  },
+  {
+    "year": 38,
+    "type": "Rebellion",
+    "civilization": "Gnome Empire",
+    "race": "Kobold",
+    "description": "A rebellion led by Kobold dissidents shakes Gnome Empire.",
+    "index": 2
+  },
+  {
+    "year": 54,
+    "type": "Catastrophe",
+    "civilization": "Human Empire",
+    "race": "Warforged",
+    "description": "Natural disasters ravage Human Empire, decimating the Warforged population.",
+    "index": 3
+  },
+  {
+    "year": 58,
+    "type": "Rebellion",
+    "civilization": "Minotaur Empire",
+    "race": "Kalashtar",
+    "description": "A rebellion led by Kalashtar dissidents shakes Minotaur Empire.",
+    "index": 4
+  },
+  {
+    "year": 66,
+    "type": "War",
+    "civilization": "Tiefling Empire",
+    "race": "Elf",
+    "description": "A bloody war erupts between the Elf and Tiefling Empire.",
+    "index": 5
+  },
+  {
+    "year": 81,
+    "type": "War",
+    "civilization": "Aasimar Empire",
+    "race": "Hobgoblin",
+    "description": "A bloody war erupts between the Hobgoblin and Aasimar Empire.",
+    "index": 6
+  },
+  {
+    "year": 101,
+    "type": "Catastrophe",
+    "civilization": "Human Empire",
+    "race": "Hobgoblin",
+    "description": "Natural disasters ravage Human Empire, decimating the Hobgoblin population.",
+    "index": 7
+  },
+  {
+    "year": 109,
+    "type": "Alliance",
+    "civilization": "Goblin Empire",
+    "race": "Elf",
+    "description": "The Elf people form an alliance with Goblin Empire.",
+    "index": 8
+  },
+  {
+    "year": 121,
+    "type": "Coronation",
+    "civilization": "Half-Elf Empire",
+    "race": "Genasi",
+    "description": "A new ruler of Half-Elf Empire, from the Genasi lineage, is crowned.",
+    "index": 9
+  },
+  {
+    "year": 130,
+    "type": "Rebellion",
+    "civilization": "Halfling Empire",
+    "race": "Orc",
+    "description": "A rebellion led by Orc dissidents shakes Halfling Empire.",
+    "index": 10
+  },
+  {
+    "year": 148,
+    "type": "Invention",
+    "civilization": "Bugbear Empire",
+    "race": "Dwarf",
+    "description": "The Dwarf invent a new tool that revolutionizes life in Bugbear Empire.",
+    "index": 11
+  },
+  {
+    "year": 153,
+    "type": "Rebellion",
+    "civilization": "Kobold Empire",
+    "race": "Changeling",
+    "description": "A rebellion led by Changeling dissidents shakes Kobold Empire.",
+    "index": 12
+  },
+  {
+    "year": 168,
+    "type": "Coronation",
+    "civilization": "Minotaur Empire",
+    "race": "Kalashtar",
+    "description": "A new ruler of Minotaur Empire, from the Kalashtar lineage, is crowned.",
+    "index": 13
+  },
+  {
+    "year": 179,
+    "type": "Catastrophe",
+    "civilization": "Orc Empire",
+    "race": "Gnome",
+    "description": "Natural disasters ravage Orc Empire, decimating the Gnome population.",
+    "index": 14
+  },
+  {
+    "year": 199,
+    "type": "Coronation",
+    "civilization": "Changeling Empire",
+    "race": "Human",
+    "description": "A new ruler of Changeling Empire, from the Human lineage, is crowned.",
+    "index": 15
+  },
+  {
+    "year": 221,
+    "type": "Discovery",
+    "civilization": "Goblin Empire",
+    "race": "Human",
+    "description": "Explorers from Goblin Empire uncover ancient relics of the Human.",
+    "index": 16
+  },
+  {
+    "year": 234,
+    "type": "Alliance",
+    "civilization": "Centaur Empire",
+    "race": "Centaur",
+    "description": "The Centaur people form an alliance with Centaur Empire.",
+    "index": 17
+  },
+  {
+    "year": 249,
+    "type": "Migration",
+    "civilization": "Human Empire",
+    "race": "Goblin",
+    "description": "The Goblin migrate en masse toward the borders of Human Empire.",
+    "index": 18
+  },
+  {
+    "year": 272,
+    "type": "Invention",
+    "civilization": "Bugbear Empire",
+    "race": "Genasi",
+    "description": "The Genasi invent a new tool that revolutionizes life in Bugbear Empire.",
+    "index": 19
+  },
+  {
+    "year": 274,
+    "type": "Migration",
+    "civilization": "Minotaur Empire",
+    "race": "Dwarf",
+    "description": "The Dwarf migrate en masse toward the borders of Minotaur Empire.",
+    "index": 20
+  },
+  {
+    "year": 275,
+    "type": "Rebellion",
+    "civilization": "Human Empire",
+    "race": "Warforged",
+    "description": "A rebellion led by Warforged dissidents shakes Human Empire.",
+    "index": 21
+  },
+  {
+    "year": 292,
+    "type": "Discovery",
+    "civilization": "Tiefling Empire",
+    "race": "Goblin",
+    "description": "Explorers from Tiefling Empire uncover ancient relics of the Goblin.",
+    "index": 22
+  }
+]

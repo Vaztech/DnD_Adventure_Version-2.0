@@ -1,49 +1,65 @@
-import random
+# dnd_adventure/worldgen/npc_simulator.py
+import os
 import json
+import random
+from typing import Dict, List, Any
 
-def load_races():
-    with open('C:\\Users\\Vaz\\Desktop\\dnd_adventure\\dnd_adventure\\data\\races.json') as f:
-        all_races = json.load(f)
-        valid_races = ["Human", "Elf", "Dwarf", "Orc", "Gnome", "Halfling"]
-        return [race for race in all_races if race["name"] in valid_races]
+def _data_path(*parts: str) -> str:
+    """
+    Build a normalized cross-platform path to the data/ folder.
+    Works for Windows, macOS, and Linux.
+    """
+    base_dir = os.path.dirname(os.path.abspath(__file__))          # .../dnd_adventure/worldgen
+    project_pkg_dir = os.path.dirname(base_dir)                    # .../dnd_adventure
+    data_dir = os.path.join(project_pkg_dir, "data")               # .../dnd_adventure/data
+    return os.path.normpath(os.path.join(data_dir, *parts))
 
-def generate_npcs(civs, count=10):
+def _load_json(path: str) -> Any:
+    """Load a JSON file safely."""
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"Data file not found: {path}")
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def load_races() -> List[Dict[str, Any]]:
+    """Load race data from data/races.json cross-platform."""
+    races_path = _data_path("races.json")
+    return _load_json(races_path)
+
+def generate_npcs(civilizations: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Generate NPCs for each civilization based on race data.
+    Creates unique NPCs with random professions, traits, and roles.
+    """
     races_data = load_races()
     npcs = []
-    
-    race_names = {
-        "Human": ["Aldric", "Elaine", "Godric", "Isolde"],
-        "Elf": ["Aelar", "Lyria", "Faelar", "Sylria"],
-        "Dwarf": ["Thorin", "Hilda", "Balin", "Frea"],
-        "Orc": ["Gorak", "Morga", "Thokk", "Urzha"],
-        "Gnome": ["Pip", "Tana", "Fizz", "Mibs"],
-        "Halfling": ["Bilbo", "Poppy", "Sam", "Marigold"]
-    }
-    
-    for _ in range(count):
-        civ = random.choice(civs)
-        race = civ["race"]
-        subrace = civ.get("subrace")
-        
-        names = race_names.get(race, ["Urist", "Althaea", "Durin", "Lirael"])
-        
-        professions = {
-            "Human": ["Knight", "Mage", "Merchant", "Farmer"],
-            "Elf": ["Archer", "Druid", "Scholar", "Artisan"],
-            "Dwarf": ["Warrior", "Smith", "Miner", "Engineer"],
-            "Orc": ["Berserker", "Shaman", "Raider", "Hunter"],
-            "Gnome": ["Tinker", "Illusionist", "Alchemist", "Bard"],
-            "Halfling": ["Thief", "Cook", "Storyteller", "Herbalist"]
-        }.get(race, ["Warrior", "Mage", "Thief", "Smith"])
-        
-        npc = {
-            "name": random.choice(names),
-            "race": race,
-            "subrace": subrace,
-            "civ": civ["name"],
-            "profession": random.choice(professions),
-            "notable": random.random() < 0.3,
-            "traits": random.sample(["Brave", "Cunning", "Wise", "Charismatic"], k=random.randint(1, 2))
-        }
-        npcs.append(npc)
+    professions = ["Warrior", "Mage", "Hunter", "Merchant", "Scholar", "Farmer", "Priest", "Thief"]
+    traits = ["Brave", "Cunning", "Kind", "Greedy", "Loyal", "Deceitful", "Curious", "Stoic"]
+
+    for civ in civilizations:
+        race_name = civ.get("race", "Human")
+        race_info = next((r for r in races_data if r["name"].lower() == race_name.lower()), None)
+
+        for _ in range(random.randint(5, 15)):  # Number of NPCs per civ
+            npc = {
+                "name": f"{race_name}_{random.randint(100, 999)}",
+                "race": race_name,
+                "profession": random.choice(professions),
+                "trait": random.choice(traits),
+                "home_civilization": civ["name"],
+                "biome": civ.get("biome", "plains"),
+                "is_notable": random.random() < 0.2,  # 20% chance of being notable
+                "influence": random.randint(1, 100),
+            }
+            npcs.append(npc)
+
     return npcs
+
+# ✅ Optional test runner for standalone use
+if __name__ == "__main__":
+    demo_civs = [
+        {"name": "Dwarf Empire", "race": "Dwarf", "biome": "mountains"},
+        {"name": "Elf Dominion", "race": "Elf", "biome": "forest"},
+    ]
+    demo_npcs = generate_npcs(demo_civs)
+    print(json.dumps(demo_npcs[:5], indent=2))
